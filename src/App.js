@@ -13,7 +13,7 @@ function App() {
       <div className="demo-big-content">
           {landingPage}
           <Layout>
-              <Header className="header-color" title={<Link style={{textDecoration: 'none', color:'white'}} to="./">MyPortfolio</Link>} scroll>
+              <Header className="header-color" title={<Link style={{textDecoration: 'none', color:'white'}} to="/react-portfolio/">MyPortfolio</Link>} scroll>
                   <Navigation>
                       <Link to={CV} target="_blank">Resume</Link>
                       <Link to="/aboutme">About Me</Link>
@@ -21,7 +21,7 @@ function App() {
                       <Link to="/contactme">Contact</Link>
                   </Navigation>
               </Header>
-              <Drawer title={<Link style={{textDecoration: 'none', color:'black'}} to="/">MyPortfolio</Link>}>
+              <Drawer title={<Link style={{textDecoration: 'none', color:'black'}} to="/react-portfolio/">MyPortfolio</Link>}>
                   <Navigation>
                   <Link to={CV} target="_blank">Resume</Link>
                       <Link to="/aboutme">About Me</Link>
