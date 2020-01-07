@@ -27,6 +27,10 @@ class Landing extends Component {
                         <a href="https://github.com/HamadAli248" rel="noopener noreferrer" target="_blank">
                             <i className="fa fa-github-square"  aria-hidden="true"/>
                         </a>
+                        {/*free code camp*/}
+                        <a href="https://www.freecodecamp.org/fcc8eef0fcb-973d-4c54-bba3-c0fc28b43bb7" rel="noopener noreferrer" target="_blank">
+                            <i className="fa fa-free-code-camp"  aria-hidden="true"/>
+                        </a>
 
 
                     </div>
