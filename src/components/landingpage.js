@@ -15,7 +15,7 @@ class Landing extends Component {
                     <h1>Junior Software Developer</h1>
 
                     <hr/>
-                    <p> HTML/CSS | BOOTSTRAP | JAVASCRIPT | REACT | SWIFT | NODEJS </p>
+                    <p> HTML/CSS | BOOTSTRAP | JAVASCRIPT | REACT | SWIFT | NODEJS | JAVA </p>
                     <div className="social-links">
 
                         {/*Linkin*/}
