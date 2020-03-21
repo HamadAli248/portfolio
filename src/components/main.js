@@ -8,6 +8,8 @@ import Resume from './resume';
 
 
 const Main = () => (
+
+    // main to add all the rouding to different paths from the URL
     <Switch>
         <Route exact path="/" component={LandingPage} />
         <Route exact path="/react-portfolio" component={LandingPage} />

@@ -9,7 +9,7 @@ import landingPage from './components/landingpage';
 
 function App() {
   return (
-          
+          // main page (getting the home page) and links to other pages 
       <div className="demo-big-content">
           {landingPage}
           <Layout>

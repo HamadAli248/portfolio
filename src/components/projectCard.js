@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import {Card , CardText , CardTitle , CardActions , Button , CardMenu , IconButton} from 'react-mdl';
 
 class ProjectCard extends Component {
+    
+    //code for project cards  used in project.js file
 
     render(props) {
         return(

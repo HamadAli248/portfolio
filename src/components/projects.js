@@ -2,20 +2,30 @@ import React, { Component } from 'react';
 import { Tabs, Tab , Grid , Cell } from 'react-mdl';
 import ProjectCard from './projectCard';
 
+// page for all my projects
+
+// setting images for all the projects
+        let urlinsta = "https://s3.amazonaws.com/ionic-marketplace/instaclone-ionic-instagram-theme/icon.png";
+        let urlcalculator="https://coopervision.ca/sites/coopervision.ca/files/tc-calculator-icon.png?timestamp=1493161192";
+        let urlTetris="https://editorial.designtaxi.com/editorial-images/news-logo11062019/1.png";
+        let urlDice="https://cdn1.vectorstock.com/i/1000x1000/34/10/dice-line-icon-gambling-outline-logo-vector-19733410.jpg";
+        
+
 
 
 class Projects extends Component {
+
+    // setting the props of what the user see initially when they go on the page
     constructor(props){
         super(props);
         this.state = { activeTab: 0 };
     }
     
     toggleCategories(){
+
+        // All of the Projects
         if(this.state.activeTab === 0){
-        let urlinsta = "https://s3.amazonaws.com/ionic-marketplace/instaclone-ionic-instagram-theme/icon.png";
-        let urlcalculator="https://coopervision.ca/sites/coopervision.ca/files/tc-calculator-icon.png?timestamp=1493161192"
-        let urlTetris="https://editorial.designtaxi.com/editorial-images/news-logo11062019/1.png"
-        let urlDice="https://cdn1.vectorstock.com/i/1000x1000/34/10/dice-line-icon-gambling-outline-logo-vector-19733410.jpg"
+        
         
         return(
             <div className="project-grid">
@@ -47,11 +57,9 @@ class Projects extends Component {
             </div>
         )
     }else if(this.state.activeTab === 1){
-        let urlinsta = "https://s3.amazonaws.com/ionic-marketplace/instaclone-ionic-instagram-theme/icon.png";
-        let urlcalculator="https://coopervision.ca/sites/coopervision.ca/files/tc-calculator-icon.png?timestamp=1493161192"
-        let urlTetris="https://editorial.designtaxi.com/editorial-images/news-logo11062019/1.png"
-
         return(
+
+            // react Projects
             <div className="project-grid">
                 <ProjectCard
                 myUrl = {urlinsta}
@@ -75,8 +83,9 @@ class Projects extends Component {
             
         )
     }else if(this.state.activeTab === 2){
-        let urlDice="https://cdn1.vectorstock.com/i/1000x1000/34/10/dice-line-icon-gambling-outline-logo-vector-19733410.jpg"
+ 
         return(
+            // Vanilla JavaScript Projects
             <div className="project-grid">
               <ProjectCard
                 myUrl = {urlDice}
