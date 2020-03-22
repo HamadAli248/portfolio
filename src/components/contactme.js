@@ -13,8 +13,8 @@ class Contact extends Component {
 
                     {/* Right side of page with picture and name */}
                     <Cell col={6}> 
-                        <h2>HAMAD ALI</h2>
-                        <img
+                        <h2 class="name">HAMAD ALI</h2>
+                        <img class="picture"
                          src={Profile}
                           alt="profile pic"
                           style={{ height:'250px' }}/>
@@ -31,14 +31,18 @@ class Contact extends Component {
                             <List>
                                 <ListItem>
                                     <ListItemContent style={{fontSize: '30px', fontFamily:'Anton'}}>
-                                        <i className="fa fa-phone-square" aria-hidden="true"/>
-                                        07424983269
+                                        <div class="contact-info">
+                                        <i class="font" className="fa fa-phone-square" aria-hidden="true"/>
+                                        <p>07424983269</p>
+                                        </div>
                                     </ListItemContent>
                                 </ListItem>
                                 <ListItem>
                                     <ListItemContent style={{fontSize: '30px', fontFamily:'Anton'}}>
-                                        <i className="fa fa-envelope" aria-hidden="true"/>
-                                        hammadali248@gmail.com
+                                        <div class="contact-info">
+                                        <i class="font" className="fa fa-envelope" aria-hidden="true"/>
+                                        <p>hammadali248@gmail.com</p>
+                                        </div>
                                     </ListItemContent>
                                 </ListItem>
                             </List>
