@@ -1,12 +1,13 @@
 import React from 'react';
 import ProjectCard from './projectCard';
 let urlCashMachine = "https://static.thenounproject.com/png/2077124-200.png";
-let urlJavalogo = "https://p7.hiclipart.com/preview/837/18/530/logo-java-runtime-environment-programming-language-runtime-system-oracle.jpg";
+let urlJavalogo = "https://logos-download.com/wp-content/uploads/2016/10/Java_logo_icon.png";
 let urlDataBase="https://img.favpng.com/21/8/2/database-logo-png-favpng-AHZwNuJZ7YW8VpjPxL9xsx9wN.jpg";
 let urlChatbox ="https://www.nicepng.com/png/detail/53-537477_chat-box-logo-chat-box-clip-art.png";
+let urlTDD="https://marsner.com/wp-content/uploads/test-driven-development-TDD.png";
 
 export const BasicChallengesInJava = () =>
-                <div className="project-grid">
+                <div className="project-grid" id="project-grid-BasicChallengesInJava">
                      <ProjectCard
                         imgmyUrl = {urlDataBase}
                         cardText="Learning Databases and sending,requesting data from java to postgreSQL "                
@@ -23,12 +24,12 @@ export const BasicChallengesInJava = () =>
                         GithubbuttonText="https://github.com/HamadAli248/CashMachine"
                     />
                     <ProjectCard
-                        imgmyUrl = {urlJavalogo}
+                        imgmyUrl = {urlTDD}
                         cardText="Learning Test Driven Development basic by building a calculator by writing tests First and then writing code to pass the tests"                
                         GithubbuttonText="https://github.com/HamadAli248/Test-Driven-Development-basic-Learning"
                     />
                      <ProjectCard
-                        imgmyUrl = {urlJavalogo}
+                        imgmyUrl = {urlTDD}
                         cardText="Test driven development challenge from code wars more info on github Repo"                
                         GithubbuttonText="https://github.com/HamadAli248/Killer-Garage-Door-Challenge"
                     />

@@ -8,7 +8,7 @@ let urlcalculator="https://coopervision.ca/sites/coopervision.ca/files/tc-calcul
 
 
 export const VanillaJavaScript = () =>   
-                    <div className="project-grid">
+                    <div className="project-grid" id="project-grid-VanillaJavaScript">
                     <ProjectCard
                     imgmyUrl = {urlDice}
                     cardText="First ever project built in Vanilla javascript, building a one and two player dice game."                

@@ -7,7 +7,7 @@ let urlCodeEditor ="https://cdn4.iconfinder.com/data/icons/flaturici-set-2/512/c
 let urlBlog ="https://www.revenuearchitects.com/wp-content/uploads/2017/02/Blog_pic-1030x584.png";
 let urlApi ="https://pngimage.net/wp-content/uploads/2018/05/api-logo-png-4.png";
 export const ReactProjects = () =>
-                <div className="project-grid">
+                <div className="project-grid" id="project-grid-ReactProjects">
                     <ProjectCard
                         imgmyUrl = {urlinsta}
                         cardText="This was a group project working with react and building a copy of Instagram"                
