@@ -62,7 +62,18 @@ width: 100%;
 
 .project-grid{
   display: flex;
+  flex-wrap: wrap;
 }
+#cardtext{
+  min-height:30px ;
+}
+#button{
+  margin-left: 10%;
+}
+#project-grid-BasicChallengesInJava{
+  height: 100%;
+}
+
 /* ============================================================================================= */
 /* Contact Page */
 

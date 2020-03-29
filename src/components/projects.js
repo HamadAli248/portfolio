@@ -20,12 +20,11 @@ class Projects extends Component {
         
             if(this.state.activeTab === 0){
                 return(
-                    <div>
+                    <div className="all-projects">
                         <ReactProjects />
                         <JavaProjects/>
-                        <MongoDb/>
                         <VanillaJavaScript />
-                        
+                        <MongoDb/>
                     </div>
                     
                 )

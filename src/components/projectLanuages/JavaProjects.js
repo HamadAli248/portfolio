@@ -8,7 +8,7 @@ let urlDataBase="https://img.favpng.com/21/8/2/database-logo-png-favpng-AHZwNuJZ
 let urlBooking="https://www.systembookings.com/wp-content/uploads/2017/05/System-Bookings-Contact-us-let-us-help-you-build-your-booking-system.png";
 
 export const JavaProjects = () =>   
-                    <div className="project-grid">
+                    <div className="project-grid" id="project-grid-JavaProjects">
                      <ProjectCard
                     imgmyUrl = {urlBooking}
                     cardText="Goup project of building Room Booking System application with Spring Boot and PostgreSQL database"                
