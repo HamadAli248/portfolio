@@ -19,6 +19,7 @@ export const ReactProjects = () =>
                         cardText="Tetris Game"                
                         GithubbuttonText="https://github.com/HamadAli248/Tetris-Game"
                         livebuttonText="https://hamadali248.github.io/Tetris-Game/"
+                        livebuttondisplay="Live Demo"
                     />
                     <ProjectCard
                         imgmyUrl = {urlCodeEditor}
