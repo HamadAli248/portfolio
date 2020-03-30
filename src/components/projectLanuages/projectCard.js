@@ -14,8 +14,8 @@ class ProjectCard extends Component {
                  {this.props.cardText}
              </CardText>
              <CardActions id="buttontab" border>
-                <a id="button" href={this.props.GithubbuttonText}  target="_blank"><Button colored >Git Hub</Button> </a>
-                <a id="button" href={this.props.livebuttonText}  target="_blank"><Button colored>Live Demo</Button> </a>
+                <a id="button" href={this.props.GithubbuttonText}  target="_blank"><Button colored >Git Hub Code</Button> </a>
+                <a id="button" href={this.props.livebuttonText}  target="_blank"><Button colored>{this.props.livebuttondisplay}</Button> </a>
                  
              </CardActions>
              <CardMenu style={{color: 'black'}}>

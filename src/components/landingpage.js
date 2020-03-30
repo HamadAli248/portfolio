@@ -17,10 +17,6 @@ class Landing extends Component {
                     className="avatar-img"/>
                     <div className="banner-text"> 
                     <h1>Junior Software Engineer</h1>
-
-
-
-
                     {/* Links for Socail Media */}
                     <div className="social-links">
                         {/*Linkin*/}

@@ -12,6 +12,7 @@ export const BasicChallengesInJava = () =>
                         imgmyUrl = {urlDataBase}
                         cardText="Learning Databases and sending,requesting data from java to postgreSQL "                
                         GithubbuttonText="https://github.com/HamadAli248/databases"
+                        
                     />
                     <ProjectCard
                         imgmyUrl = {urlCashMachine}
