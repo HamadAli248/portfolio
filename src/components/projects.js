@@ -1,13 +1,12 @@
 import React, { Component } from 'react';
-import { Tabs, Tab , Grid , Cell } from 'react-mdl';
-
+import { Tabs, Tab , Grid , Cell,Drawer,Layout,Content} from 'react-mdl';
 import { ReactProjects } from './projectLanuages/ReactProjects';
 import { VanillaJavaScript } from './projectLanuages/VanillaJavaScript';
 import { BasicChallenges } from './projectLanuages/BasicChallenges';
 import { BasicChallengesInJava } from './projectLanuages/BasicChallangesInJava';
 import {JavaProjects } from './projectLanuages/JavaProjects';
 import { MongoDb } from './projectLanuages/MongoDB';
-
+import { Link } from 'react-router-dom';
 
 class Projects extends Component {
     constructor(props){
@@ -75,6 +74,30 @@ class Projects extends Component {
                             </Cell>
                         </Grid>
                 </div>
+
+                <div className="category-tabs-select">
+                <Layout>
+                        <Drawer >
+                            <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({activeTab:tabId})} ripple>
+                                <Tab>All Projects</Tab>
+                                <Tab>Java</Tab>
+                                <Tab>React</Tab>
+                                <Tab>MongoDB</Tab>
+                                <Tab>Vanilla Javascript</Tab>
+                                <Tab>Basic Challenges Javascript</Tab>
+                                <Tab>Basic Challenges Java</Tab>
+                            </Tabs>
+                        </Drawer>
+                        <Content>
+                            <Grid >
+                                <Cell col={12}>
+                                    <div className="content">{this.toggleCategories()}</div>
+                                </Cell>
+                            </Grid>
+                        </Content>
+                        </Layout>
+              </div>
+
                 {/* <div className="category-tabs-select">
                     <select activeoption={this.state.activeoption} onChange={(optionId) => this.setState({activeoption:optionId})}>
                         <option>All Projects</option>
