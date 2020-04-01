@@ -62,7 +62,23 @@ width: 100%;
 
 .project-grid{
   display: flex;
+  flex-wrap: wrap;
 }
+#cardtext{
+  min-height:30px ;
+}
+#button{
+  margin-left: 5%;
+}
+#project-grid-BasicChallengesInJava{
+  height: 100%;
+}
+.category-tabs,.category-tabs-select{
+ text-align: center;
+}
+
+
+
 /* ============================================================================================= */
 /* Contact Page */
 
@@ -88,8 +104,8 @@ width: 100%;
   font-family: 'Anton', sans-serif;
 }
 .contact-grid hr{
-  border-top: 5px dotted black;
-  width: 50%;
+  border-top: 10px dotted black;
+  width: 100%;
   margin: auto;
 }
 .contact-list i{
@@ -130,7 +146,7 @@ width: 100%;
 }
 i {
 
-  margin-left: 30px;
+  margin-left: 20px;
   padding-right:10px !important;
   font-size: 30px !important;
 }
@@ -233,3 +249,93 @@ p {
   font-size: 18px !important;
 }
 }
+/* =============================== =============================== =============================== =============================== =============================== */
+/* MEDIA QUERY bigger screens/laptops min-width:700 max-width:1500 */
+@media all and (min-width: 1200px){
+  /* General Layout */
+  
+  
+  /* ============================================================================================= */
+  /* landing Page */
+  
+  
+  /* ============================================================================================= */
+  /* About me Page */
+  
+  
+  /* ============================================================================================= */
+  /* Projects Page */
+  .category-tabs{
+    display: inline;
+  }
+  
+  /* ============================================================================================= */
+  /* Contact Page */
+
+  }
+  /* =============================== =============================== =============================== =============================== =============================== */
+/* MEDIA QUERY bigger screens/laptops min-width:700 max-width:1500 */
+@media all and (max-width: 1199px){
+  /* General Layout */
+  
+  
+  /* ============================================================================================= */
+  /* landing Page */
+  
+  
+  /* ============================================================================================= */
+  /* About me Page */
+  
+  
+  /* ============================================================================================= */
+  /* Projects Page */
+  .category-tabs{
+    display: none;
+  }
+  .category-tabs-select{
+    display: visible;
+  }
+  
+  /* ============================================================================================= */
+  /* Contact Page */
+
+  }
+  
+
+/* ============================================================================================= */
+@media all and (min-width: 1470px){
+  /* General Layout */
+  
+  
+  /* ============================================================================================= */
+  /* landing Page */
+  
+  
+  /* ============================================================================================= */
+  /* About me Page */
+  
+  
+  /* ============================================================================================= */
+  /* Projects Page */
+  
+  
+  /* ============================================================================================= */
+  /* Contact Page */
+
+  .contact-info i {
+    margin-left: 60px;
+    padding-right:10px !important;
+    font-size: 60px !important;
+  }
+  .contact-info, .mdl-list__item{
+    display: flex;
+    display: inline-block;
+    margin-bottom: 0px !important;
+    padding: 0px !important;
+  } 
+  .contact-info p {
+    display: flex;
+    display: inline-block;
+    font-size: 38px !important;
+  }
+  }
