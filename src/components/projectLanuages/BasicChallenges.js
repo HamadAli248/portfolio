@@ -8,7 +8,7 @@ let urlZenGarden = "https://www.cognifide.com/-/media/project/cognifidecom/blogs
 let urlDom="https://ourcodeworld.com/public-media/articles/articleocw-56bba37e791bc.png"
 
 export const BasicChallenges = () =>
-                <div className="project-grid">
+                <div className="project-grid" id="project-grid-BasicChallenges">
                     <ProjectCard
                         imgmyUrl = {urlCashMachine}
                         cardText="Created a Cash-machine in week 2 of coding"                

@@ -73,6 +73,7 @@ width: 100%;
 #project-grid-BasicChallengesInJava{
   height: 100%;
 }
+
 .category-tabs,.category-tabs-select{
  text-align: center;
 }
@@ -293,9 +294,14 @@ p {
     display: none;
   }
   .category-tabs-select{
+
     display: visible;
   }
   
+
+    display: inline;
+  }
+
   /* ============================================================================================= */
   /* Contact Page */
 

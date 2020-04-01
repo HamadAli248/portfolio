@@ -7,15 +7,15 @@ class ProjectCard extends Component {
 
     render(props) {
         return(
-            <Card className="project-grid" shadow={5} style={{minWidth: '450' , margin: 'auto'}}>
-             <CardTitle style={{color:'black', height: '176px', background: 'url(' + this.props.imgmyUrl + ') center / cover'}}>
+            <Card className="project-grid-initial" shadow={5} style={{minWidth: '450',maxheight:'300px' ,margin:'auto',marginTop:'10px'}}>
+             <CardTitle style={{color:'black', height: '176px', background: 'url(' + this.props.imgmyUrl + ') center / cover', maxwidth: '100%',maxheight: '100%'}}>
              </CardTitle>
-             <CardText>
+             <CardText id="cardtext">
                  {this.props.cardText}
              </CardText>
-             <CardActions border>
-                <a href={this.props.GithubbuttonText}  target="_blank"><Button colored >Git Hub</Button> </a>
-                <a href={this.props.livebuttonText}  target="_blank"><Button colored>Live Demo</Button> </a>
+             <CardActions id="buttontab" border>
+                <a id="button" href={this.props.GithubbuttonText}  target="_blank"><Button colored >Git Hub Code</Button> </a>
+                <a id="button" href={this.props.livebuttonText}  target="_blank"><Button colored>{this.props.livebuttondisplay}</Button> </a>
                  
              </CardActions>
              <CardMenu style={{color: 'black'}}>

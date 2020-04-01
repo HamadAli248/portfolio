@@ -74,6 +74,7 @@ class Projects extends Component {
                             </Cell>
                         </Grid>
                 </div>
+
                 <div className="category-tabs-select">
                 <Layout>
                         <Drawer >
@@ -96,6 +97,7 @@ class Projects extends Component {
                         </Content>
                         </Layout>
               </div>
+
                 {/* <div className="category-tabs-select">
                     <select activeoption={this.state.activeoption} onChange={(optionId) => this.setState({activeoption:optionId})}>
                         <option>All Projects</option>
