@@ -97,23 +97,6 @@ class Projects extends Component {
                         </Content>
                         </Layout>
               </div>
-
-                {/* <div className="category-tabs-select">
-                    <select activeoption={this.state.activeoption} onChange={(optionId) => this.setState({activeoption:optionId})}>
-                        <option>All Projects</option>
-                        <option>Java</option>
-                        <option>React</option>
-                        <option>MongoDB</option>
-                        <option>Vanilla Javascript</option>
-                        <option>Basic Challenges Javascript</option>
-                        <option>Basic Challenges Java</option> 
-                    </select>
-                    <Grid >
-                            <Cell col={12}>
-                                <div className="content">{this.toggleCategories()}</div>
-                            </Cell>
-                        </Grid>
-                </div> */}
             </div>
             )
     }        
