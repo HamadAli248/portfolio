@@ -18,7 +18,7 @@ function App() {
                       <Link to={CV} target="_blank">Resume</Link>
                       <Link to="/aboutme">About Me</Link>
                       <Link to="/projects">Projects</Link>
-                      <Link to="/contactme">Contact</Link>
+                      {/* <Link to="/contactme">Contact</Link> */}
                   </Navigation>
               </Header>
               <Drawer title={<Link style={{textDecoration: 'none', color:'black'}} to="/react-portfolio/">Hamad Ali</Link>}>
@@ -26,7 +26,7 @@ function App() {
                   <Link to={CV} target="_blank">Resume</Link>
                       <Link to="/aboutme">About Me</Link>
                       <Link to="/projects">Projects</Link>
-                      <Link to="/contactme">Contact</Link>
+                      {/* <Link to="/contactme">Contact</Link> */}
                   </Navigation>
               </Drawer>
               <Content>

@@ -3,10 +3,8 @@ import { Tabs, Tab , Grid , Cell,Drawer,Layout,Content} from 'react-mdl';
 import { ReactProjects } from './projectLanuages/ReactProjects';
 import { VanillaJavaScript } from './projectLanuages/VanillaJavaScript';
 import { BasicChallenges } from './projectLanuages/BasicChallenges';
-import { BasicChallengesInJava } from './projectLanuages/BasicChallangesInJava';
 import {JavaProjects } from './projectLanuages/JavaProjects';
 import { MongoDb } from './projectLanuages/MongoDB';
-import { Link } from 'react-router-dom';
 
 class Projects extends Component {
     constructor(props){
@@ -43,12 +41,8 @@ class Projects extends Component {
                 )
             }else if(this.state.activeTab === 5){
                 return(
-                    <BasicChallenges />               
-                )
-            }
-            else if(this.state.activeTab === 6){
-                return(
-                <BasicChallengesInJava />
+                    <BasicChallenges />     
+                                                 
                 )
             }
     }
@@ -65,8 +59,7 @@ class Projects extends Component {
                     <Tab>React</Tab>
                     <Tab>MongoDB</Tab>
                     <Tab>Vanilla Javascript</Tab>
-                    <Tab>Basic Challenges Javascript</Tab>
-                    <Tab>Basic Challenges Java</Tab>
+                    <Tab>Basic Challenges </Tab>
                     </Tabs>
                         <Grid >
                             <Cell col={12}>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Grid,Cell} from 'react-mdl';
+import { Grid , Cell , List , ListItem , ListItemContent } from 'react-mdl';
 import Profile from '../GBuster.jpg';
 
 class Landing extends Component {
@@ -7,9 +7,9 @@ class Landing extends Component {
 
         // code for the main landing page
         return(
-            <div style={{width: '100%', margin: 'auto'}}>
-            <Grid className="landing-grid">
-                <Cell col={12}>
+            <div className="contact-body" style={{width: '100%', margin: 'auto'}}>
+            <Grid className="contact-grid" >
+                <Cell col={7}>
 
                     {/* Profile Image and name */}
                     <img 
@@ -34,9 +34,33 @@ class Landing extends Component {
                     </div>
                     </div>
                 </Cell>
+                <Cell col={5}> 
+                    <h2>Contact Me</h2>
+                    <hr/>
+                    <div className="contact-list">
+                        <List>
+                            <ListItem>
+                                <ListItemContent style={{fontSize: '30px', fontFamily:'Anton'}}>
+                                    <div class="contact-info">
+                                    <i class="font" className="fa fa-phone-square" aria-hidden="true"/>
+                                    <a href="tel:00447424983269">07424983269</a>
+                                    </div>
+                                </ListItemContent>
+                            </ListItem>
+                            <ListItem>
+                                <ListItemContent style={{fontSize: '30px', fontFamily:'Anton'}}>
+                                    <div class="contact-info">
+                                    <i class="font" className="fa fa-envelope" aria-hidden="true"/>
+                                    <a href="mailto:hammadali248@gmail.com">Email</a>
+                                    </div>
+                                </ListItemContent>
+                            </ListItem>
+                        </List>
+                    </div>
+                </Cell>
             </Grid>
             </div>
-            
+           
         )
     }
 }

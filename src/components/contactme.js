@@ -19,10 +19,6 @@ class Contact extends Component {
                           alt="profile pic"
                           style={{ height:'250px' }}/>
                     </Cell>
-
-                  
-                  
-                  
                     {/* Left Side Of the page with contact details */}
                     <Cell col={6}> 
                         <h2>Contact Me</h2>

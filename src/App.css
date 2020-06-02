@@ -21,7 +21,7 @@ width: 100%;
 }
 .avatar-img{
   height:10%;
-  padding-top: 5em;
+  padding-top: 2em;
 }
 .banner-text{
   background-color: black;
@@ -45,6 +45,37 @@ width: 100%;
     color:white;
     font-size: 5em;
     padding: 8px;
+}
+.contact-body{
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 7em; 
+}
+.contact-grid{
+  text-align: center;
+  justify-content: center;
+  width: 90%;
+  height: 70%;
+  background: white;
+  color: black;
+  border: 2px solid red;
+  margin-bottom: 20px;
+  
+}
+.contact-grid h2{
+  font-family: 'Anton', sans-serif;
+}
+.contact-grid hr{
+  border-top: 10px dotted black;
+  width: 100%;
+  margin: auto;
+}
+.contact-list i{
+  font-size:66px;
+  padding-right: 5rem;
 }
 /* ============================================================================================= */
 /* About me Page */
@@ -81,41 +112,6 @@ width: 100%;
 
 
 
-/* ============================================================================================= */
-/* Contact Page */
-
-.contact-body{
-  margin: auto;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  padding-top: 2em; 
-}
-.contact-grid{
-  text-align: center;
-  justify-content: center;
-  width: 80%;
-  height: 550px;
-  background: white;
-  color: black;
-  border: 2px solid red;
-  margin-bottom: 20px;
-}
-.contact-grid h2{
-  font-family: 'Anton', sans-serif;
-}
-.contact-grid hr{
-  border-top: 10px dotted black;
-  width: 100%;
-  margin: auto;
-}
-.contact-list i{
-  font-size:66px;
-  padding-right: 5rem;
-}
-
-
 /* =============================== =============================== =============================== =============================== =============================== */
 /* MEDIA QUERY smaller mobile max-width:400 */
 
@@ -126,18 +122,6 @@ width: 100%;
 
 /* ============================================================================================= */
 /* landing Page */
-
-
-/* ============================================================================================= */
-/* About me Page */
-
-
-/* ============================================================================================= */
-/* Projects Page */
-
-
-/* ============================================================================================= */
-/* Contact Page */
 .contact-body h2 {
   font-size: 40px;
   margin-top: 0px;
@@ -164,6 +148,16 @@ p {
   font-size: 18px !important;
 }
 }
+
+/* ============================================================================================= */
+/* About me Page */
+
+
+/* ============================================================================================= */
+/* Projects Page */
+
+
+
 
 /* =============================== =============================== =============================== =============================== =============================== */
 /* MEDIA QUERY tablet/ipad min-width:400 max-width:700 */
@@ -313,20 +307,6 @@ p {
   /* ============================================================================================= */
   /* landing Page */
   
-  
-  /* ============================================================================================= */
-  /* About me Page */
-  
-  
-  /* ============================================================================================= */
-  /* Projects Page */
-  
-  .category-tabs-select{
-    display: none;
-  }
-  /* ============================================================================================= */
-  /* Contact Page */
-
   .contact-info i {
     margin-left: 60px;
     padding-right:10px !important;
@@ -344,3 +324,16 @@ p {
     font-size: 38px !important;
   }
   }
+  
+  /* ============================================================================================= */
+  /* About me Page */
+  
+  
+  /* ============================================================================================= */
+  /* Projects Page */
+  
+  .category-tabs-select{
+    display: none;
+  }
+  /* ============================================================================================= */
+  /* Contact Page */
