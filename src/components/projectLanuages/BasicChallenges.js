@@ -6,9 +6,78 @@ let urlCashMachine = "https://static.thenounproject.com/png/2077124-200.png";
 let urlTicketMacine = "https://cdn4.iconfinder.com/data/icons/train-commuter-station-subway/338/train-stations-002-512.png";
 let urlZenGarden = "https://www.cognifide.com/-/media/project/cognifidecom/blogs/2016/touch-ui-dialog-conversion/zengarden_stacked_rgb-fb.png?la=en&hash=F037A801E1ECE351A12F720B8727DFAA"
 let urlDom="https://ourcodeworld.com/public-media/articles/articleocw-56bba37e791bc.png"
+let urlJavalogo = "https://logos-download.com/wp-content/uploads/2016/10/Java_logo_icon.png";
+let urlDataBase="https://img.favpng.com/21/8/2/database-logo-png-favpng-AHZwNuJZ7YW8VpjPxL9xsx9wN.jpg";
+let urlTDD="https://marsner.com/wp-content/uploads/test-driven-development-TDD.png";
 
 export const BasicChallenges = () =>
                 <div className="project-grid" id="project-grid-BasicChallenges">
+                     <ProjectCard
+                        imgmyUrl = {urlDataBase}
+                        cardText="Learning Databases and sending,requesting data from java to postgreSQL "                
+                        GithubbuttonText="https://github.com/HamadAli248/databases"
+                        
+                    />
+                    <ProjectCard
+                        imgmyUrl = {urlCashMachine}
+                        cardText="Cash machine 2 made through having multiple classes"                
+                        GithubbuttonText="https://github.com/HamadAli248/cashMachine2"
+                    />
+                    <ProjectCard
+                        imgmyUrl = {urlCashMachine}
+                        cardText="Cash machine in java"                
+                        GithubbuttonText="https://github.com/HamadAli248/CashMachine"
+                    />
+                    <ProjectCard
+                        imgmyUrl = {urlTDD}
+                        cardText="Learning Test Driven Development basic by building a calculator by writing tests First and then writing code to pass the tests"                
+                        GithubbuttonText="https://github.com/HamadAli248/Test-Driven-Development-basic-Learning"
+                    />
+                    <ProjectCard
+                        imgmyUrl = {urlJavalogo}
+                        cardText="Learning java"                
+                        GithubbuttonText="https://github.com/HamadAli248/java-practice"
+                    />
+                     <ProjectCard
+                        imgmyUrl = {urlJavalogo}
+                        cardText="rice-Bag-Challenge"                
+                        GithubbuttonText="https://github.com/HamadAli248/rice-Bag-Challenge"
+                    />
+                     <ProjectCard
+                        imgmyUrl = {urlJavalogo}
+                        cardText="Learning java syntax"                
+                        GithubbuttonText="https://github.com/HamadAli248/java"
+                    />
+                    <ProjectCard
+                        imgmyUrl = {urlJavalogo}
+                        cardText="OOP-in-java in week 1 of learning java"                
+                        GithubbuttonText="https://github.com/HamadAli248/OOP-in-java"
+                    />
+                    <ProjectCard
+                        imgmyUrl = {urlJavalogo}
+                        cardText="Function-Challenges from week 1 f leaning java"                
+                        GithubbuttonText="https://github.com/HamadAli248/Functions-challenges-in-java"
+                    />
+                    <ProjectCard
+                        imgmyUrl = {urlJavalogo}
+                        cardText="Presentation on some basic Java functionality"                
+                        GithubbuttonText="https://github.com/HamadAli248/JavaPresentation"                     
+                    />
+                    <ProjectCard
+                        imgmyUrl = {urlJavalogo}
+                        cardText="If-else-Challenges from week 1 of leaning java"                
+                        GithubbuttonText="https://github.com/HamadAli248/IfElse-challenges-in-java"
+                    />
+                    <ProjectCard
+                        imgmyUrl = {urlJavalogo}
+                        cardText="Variable-Challenges from week 1 of leaning java"                
+                        GithubbuttonText="https://github.com/HamadAli248/Variables-Challenges-Java"
+                    />
+                    <ProjectCard
+                        imgmyUrl = {urlJavalogo}
+                        cardText="FizzBuzz-Challenge-In-Java in week 1 of learning java"                
+                        GithubbuttonText="https://github.com/HamadAli248/FizzBuzz-Challenge-In-Java"                     
+                    />
                     <ProjectCard
                         imgmyUrl = {urlCashMachine}
                         cardText="Created a Cash-machine in week 2 of coding"                
