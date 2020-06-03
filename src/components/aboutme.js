@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
 import Profile from '../GBuster.jpg';
 import Skills from './skills';
+import {Certification} from './certifications'
 
 class About extends Component {
     render() {
@@ -27,53 +28,41 @@ class About extends Component {
                         
                         {/* Botom left of page of all the skills and {percentage of knowledge} code writen in skills.js file */}
                         <h2>Skills</h2>  
-                        <Skills className="skill"
-                        skill="HTML/CSS"
-                        progress={90}/> 
-                        <Skills className="skill"
-                        skill="JAVA"
-                        progress={30}/>   
-                        <Skills className="skill"
-                        skill="JavaScript"
-                        progress={65}/> 
-                        <Skills className="skill"
-                        skill="React"
-                        progress={65}/>
-                        <Skills className="skill"
-                        skill="Swift"
-                        progress={5}/>   
-                        <Skills className="skill"
-                        skill="NodeJS"
-                        progress={20}/> 
-                                           
+                        <Skills className="skill" skill="JAVA"       progress={30}/> 
+                        <Skills className="skill" skill="Spring Boot"progress={30}/>  
+                        <Skills className="skill" skill="TDD"        progress={20}/>  
+                        <Skills className="skill" skill="JavaScript" progress={55}/> 
+                        <Skills className="skill" skill="React"      progress={45}/>
+                        <Skills className="skill" skill="AWS"        progress={10}/>
+                        <Skills className="skill" skill="PostgreSQL" progress={20}/>
+                        <Skills className="skill" skill="NodeJS"     progress={15}/>
+                        <Skills className="skill" skill="HTML/CSS"   progress={80}/> 
+                        <Skills className="skill" skill="Swift"      progress={5}/>   
+                        
                     </Cell>
 
                     {/* content of right side of the page */}
                     <Cell className="aboutme-right-col" col={8}> 
                     {/* About me section top right */}
                     <h2>About Me</h2>
-                           <p>Currently enrolled onto the 12-week training at Code Nation, Manchester. 
-                           I am learning Front-End development including HTML5, CSS3, JavaScript,
-                           React, Back-End programming such as APIs, Node.JS, Mongo. DB, MySQL, Express, 
-                           iOS Swift programming and using the terminal and command line, using git and git hub.
-                           I am looking to use the skills I have learnt to help develop my career by earning an
-                           apprenticeship so I can return to Code Nation and improve my knowledge further.</p>     
+                           <p>Currently I am on a 15 months Apprenticeship at DMW Group. Completed the first
+                            12-week training at Code Nation, Manchester. Learning Front-End development including HTML5, CSS3, JavaScript,
+                            React, Back-End programming such as APIs, Node.JS, Mongo. DB, MySQL, Express, 
+                            iOS Swift programming and using the terminal and command line,and using git hub. I've have also been learning Java and
+                            looking into Databases(PostgreSQL),Spring Boot and finally AWS.
+                            <br/>
+                            <br/>
+                            I am a sporty person, I enjoy playing Cricket, Football and going for a Run.
+                            I also enjoy watching Formula 1 and Boxing. Excited by facing new challenges and learning something new.I am Adventurous
+                            outgoing person who is career-driven and have the determination to succeed!</p>     
 
+                           
                      <hr style={{borderTop: '3px solid #e22947'}}/>
 
-
-                   
                      {/* Bottom right with all the Certifications */}
 
                         <h2>Certification</h2>
-
-                        <a href="https://www.sololearn.com/Certificate/1014-13208616/pdf/" target="_blank">HTML Fundamentals course</a> <br></br>    
-                        <a href="https://www.sololearn.com/Certificate/1023-13208616/pdf/" target="_blank">CSS Fundamentals course </a> <br></br>    
-                        <a href="https://www.sololearn.com/Certificate/1024-13208616/pdf/" target="_blank">JavaScript Tutorial course</a> <br></br> 
-                        <a href="https://www.sololearn.com/Certificate/1068-13208616/pdf/" target="_blank"> Java Tutorial course </a> <br></br>       
-                        <a href="https://www.freecodecamp.org/certification/fcc8eef0fcb-973d-4c54-bba3-c0fc28b43bb7/responsive-web-design" target="_blank">Responsive Web Design</a><br></br>
-                        <a href="https://certification.microsoft.com/badge" target="_blank">Microsoft Exam 480: Programming in HTML5 with JavaScript and CSS3</a><br></br>
-
+                        <Certification/>
 
                     </Cell>
                 </Grid>
