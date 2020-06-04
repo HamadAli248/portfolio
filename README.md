@@ -28,5 +28,5 @@ You will also see any lint errors in the console.
 
 ### `npm run deploy`
 
-Start the publishing process. When completed check the [webside](https://hamadali248.github.io/react-portfolio/) 
+Start the publishing process. When completed check the [website](https://hamadali248.github.io/react-portfolio/) 
 
