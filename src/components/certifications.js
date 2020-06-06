@@ -9,7 +9,7 @@ let Java="https://www.xyzapk.com/wp-content/uploads/2020/04/com.sololearn.java_.
 let ResponsiveWebDesign="https://upload.wikimedia.org/wikipedia/commons/3/39/FreeCodeCamp_logo.png";
 let MicrosoftExam480="https://images.youracclaim.com/images/84f513e4-256d-4aa0-a29d-973bcb39d87a/Programming%2Bin%2BHTML5%2Bwith%2BJavaScript%2Band%2BCss3-01.png";
 export const Certification = () =>
-                <div className="project-grid" id="Certification-grid">
+                <div  id="Certification-grid">
                     <CertificationCard
                     imgmyUrl={MicrosoftExam480}
                     certTitle="Microsoft Exam 480: Programming in HTML5 with JavaScript and CSS3"
