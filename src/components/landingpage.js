@@ -43,7 +43,7 @@ class Landing extends Component {
                                 <ListItemContent style={{fontSize: '30px', fontFamily:'Anton'}}>
                                     <div class="contact-info">
                                     <i class="font" className="fa fa-phone-square" aria-hidden="true"/>
-                                    <a href="tel:00447424983269">07424983269</a>
+                                    <a href="tel:00447424983269">Phone</a>
                                     </div>
                                 </ListItemContent>
                             </ListItem>
