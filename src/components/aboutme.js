@@ -24,7 +24,31 @@ class About extends Component {
                             style={{ height:'300px' }}/>
                         </div>
                         <h2 style={{paddingTop: '0.1em',color:'white'}}>Hamad Ali</h2>
-                        <h4 style={{color: 'grey'}}>Software Engineer</h4>
+                        <h4 style={{color: 'grey'}}> Junior Software Engineer</h4>
+                        {/* Links for Socail Media */}
+                        <div className="social-links">
+                        
+                            {/*Linkin*/}
+                            <a href="https://www.linkedin.com/in/hamad-ali-5069b518a/" rel="noopener noreferrer" target="_blank">
+                                <i className="fa fa-linkedin-square"  aria-hidden="true"/>
+                            </a>
+                            {/*Github*/}
+                            <a href="https://github.com/HamadAli248" rel="noopener noreferrer" target="_blank">
+                                <i className="fa fa-github-square"  aria-hidden="true"/>
+                            </a>
+                            {/*free code camp*/}
+                            <a href="https://www.freecodecamp.org/fcc8eef0fcb-973d-4c54-bba3-c0fc28b43bb7" rel="noopener noreferrer" target="_blank">
+                                <i className="fa fa-free-code-camp"  aria-hidden="true"/>
+                            </a>
+                             {/*Email*/}
+                            <a href="mailto:hammadali248@gmail.com">
+                                <i class="font" className="fa fa-envelope" aria-hidden="true"/>
+                            </a>
+                             {/*Phonel*/}
+                            <a href="tel:00447424983269">
+                                <i class="font" className="fa fa-phone-square" aria-hidden="true"/>
+                            </a>
+                        </div>
                         
                         {/* Botom left of page of all the skills and {percentage of knowledge} code writen in skills.js file */}
                         <h2 style={{color:'white'}}>Skills</h2>  
