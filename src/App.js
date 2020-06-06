@@ -4,7 +4,7 @@ import { Layout, Header, Navigation, Drawer, Content} from 'react-mdl';
 import Main from './components/main';
 import { Link } from 'react-router-dom';
 import CV from './HamadAliCV.pdf';
-import landingPage from './components/landingpage';
+import landingPage from './components/aboutme';
 
 
 function App() {
@@ -15,7 +15,6 @@ function App() {
           <Layout>
               <Header className="header-color" title={<Link style={{textDecoration: 'none', color:'white'}} to="/react-portfolio/">Hamad Ali</Link>} scroll>
                   <Navigation>
-                      
                       <Link to="/aboutme">About Me</Link>
                       <Link to="/projects">Projects</Link>
                       <Link to={CV} target="_blank">Resume</Link>
