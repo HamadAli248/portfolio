@@ -7,16 +7,10 @@ jobs:
   build:
 
       runs-on: ubuntu-latest
-      strategy: 
-        matrix:
-          node-version: [ 12 ]
+
 
       steps:
         - uses: actions/checkout@v1
-        - name: Set up node version ${{ matrix.node-version }}
-          uses: action/setup-node@v1
-          with:
-            node-version: ${{ matrix.node-version }}
         - name: Install Packages
           run: npm install
         - name: Deploy to GH Pages
