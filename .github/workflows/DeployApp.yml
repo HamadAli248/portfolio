@@ -11,7 +11,6 @@ jobs:
 
       steps:
         - uses: actions/checkout@v1
-        - name: Install Packages
-          run: npm install
+       
         - name: Deploy to GH Pages
           run: npm run deploy
