@@ -17,6 +17,7 @@ function App() {
                   <Navigation>
                       <Link to="/aboutme">About Me</Link>
                       <Link to="/projects">Projects</Link>
+                      <Link to="/blogs">Blogs</Link>
                       <Link to={CV} target="_blank">Resume</Link>
                       {/* <Link to="/contactme">Contact</Link> */}
                   </Navigation>
@@ -25,6 +26,7 @@ function App() {
                   <Navigation>
                       <Link to="/aboutme">About Me</Link>
                       <Link to="/projects">Projects</Link>
+                      <Link to="/blogs">Blogs</Link>
                       <Link to={CV} target="_blank">Resume</Link>
                       {/* <Link to="/contactme">Contact</Link> */}
                   </Navigation>
