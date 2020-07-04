@@ -1,3 +1,53 @@
+/* Styling for smaller mobile max-width:320 */
+@media all and (max-width: 320px){
+/* General Layout */
+  body{
+    background-color: #27221f;
+  }
+  
+/* ============================================================================================= */
+/* landing Page */
+
+.avatar-img{
+  padding-top: 2em;
+  width: 20px;
+}
+.social-links{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.social-links i{
+    color:white;
+    font-size: 3em;
+}
+#skill-div{
+  height: 200px;
+  overflow-y: scroll;
+}
+.aboutme-right-col{
+  color: white;  
+}
+#Certification-grid{
+  height: 500px;
+  overflow-y: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+
+/* ============================================================================================= */
+/* Projects Page */
+  
+}  
+
+
+/* ============================================================================================= */
+/* MEDIA QUERY for laptop-L min-width:1440px */
+/* ============================================================================================= */
+
+@media all and (min-width: 1440px){
 /* General Layout */
 
 .header-color {
@@ -7,11 +57,6 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
 }
 /* ============================================================================================= */
 /* landing Page */
-
-.avatar-img{
-  height:10%;
-  padding-top: 2em;
-}
 
 .social-links{
   display: flex;
@@ -36,14 +81,14 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
   color: white;
 }
 #Certification-grid{
-  height: 35%;
+  height: 500px;
   overflow-y: scroll;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
 }
 #skill-div{
-  height: 20%;
+  height: 286px;
   overflow-y: scroll;
 }
 
@@ -67,159 +112,6 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
 .category-tabs,.category-tabs-select{
  text-align: center;
 }
-
+}
 
 /* =============================== =============================== =============================== =============================== =============================== */
-/* MEDIA QUERY smaller mobile max-width:400 */
-
-@media all and (max-width: 650px){
-
-/* General Layout */
-
-
-/* ============================================================================================= */
-/* landing Page */
-.contact-body h2 {
-  font-size: 40px;
-  margin-top: 0px;
-  margin-bottom: 0; 
-}
-.picture, .name {
-  display: none;
-}
-i {
-
-  margin-left: 20px;
-  padding-right:10px !important;
-  font-size: 30px !important;
-}
-.contact-info, .mdl-list__item{
-  display: flex;
-  display: inline-block;
-  margin-bottom: 0px !important;
-  padding: 0px !important;
-}
-p {
-  display: flex;
-  display: inline-block;
-  font-size: 18px !important;
-}
-}
-
-/* ============================================================================================= */
-/* Projects Page */
-
-
-
-
-/* =============================== =============================== =============================== =============================== =============================== */
-/* MEDIA QUERY tablet/ipad min-width:400 max-width:700 */
-
-@media all and (max-width: 900px){
-/* General Layout */
-
-
-/* ============================================================================================= */
-/* landing Page */
-
-
-
-
-/* ============================================================================================= */
-/* Projects Page */
-
-}
-/* =============================== =============================== =============================== =============================== =============================== */
-/* MEDIA QUERY bigger screens/laptops min-width:700 max-width:1500 */
-@media all and (min-width: 901px){
-/* General Layout */
-
-
-/* ============================================================================================= */
-/* landing Page */
-
-
-
-/* ============================================================================================= */
-/* Projects Page */
-
-
-
-
-}
-/* =============================== =============================== =============================== =============================== =============================== */
-/* MEDIA QUERY bigger screens/laptops min-width:700 max-width:1500 */
-@media all and (min-width: 1200px){
-  /* General Layout */
-  
-  
-  /* ============================================================================================= */
-  /* landing Page */
-  
-  
-
-  /* ============================================================================================= */
-  /* Projects Page */
-  .category-tabs{
-    display: inline;
-  }
-  
-
-  }
-  /* =============================== =============================== =============================== =============================== =============================== */
-/* MEDIA QUERY bigger screens/laptops min-width:700 max-width:1500 */
-@media all and (max-width: 1199px){
-  /* General Layout */
-  
-  
-  /* ============================================================================================= */
-  /* landing Page */
-  
-  
-  /* ============================================================================================= */
-  /* Projects Page */
-  .category-tabs{
-    display: none;
-  }
-  .category-tabs-select{
-        display: visible;
-  }
-
-
-  }
-  
-
-/* ============================================================================================= */
-@media all and (min-width: 1470px){
-  /* General Layout */
-  
-  
-  /* ============================================================================================= */
-  /* landing Page */
-  
-  .contact-info i {
-    margin-left: 60px;
-    padding-right:10px !important;
-    font-size: 60px !important;
-  }
-  .contact-info, .mdl-list__item{
-    display: flex;
-    display: inline-block;
-    margin-bottom: 0px !important;
-    padding: 0px !important;
-  } 
-  .contact-info p {
-    display: flex;
-    display: inline-block;
-    font-size: 38px !important;
-  }
-  }
- 
-  
-  /* ============================================================================================= */
-  /* Projects Page */
-  
-  .category-tabs-select{
-    display: none;
-  }
-
