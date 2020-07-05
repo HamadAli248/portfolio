@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, Tab , Grid , Cell,Drawer,Layout,Content} from 'react-mdl';
+import { Tabs, Tab , Grid , Cell,Layout,Content} from 'react-mdl';
 import { ReactProjects } from './projectLanuages/ReactProjects';
 import { VanillaJavaScript } from './projectLanuages/VanillaJavaScript';
 import { BasicChallenges } from './projectLanuages/BasicChallenges';
@@ -49,48 +49,24 @@ class Projects extends Component {
    
     
     render() {
-        
         return(
-            <div>
                 <div className="category-tabs">
-                    <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({activeTab:tabId})} ripple>
-                    <Tab>All Projects</Tab>
-                    <Tab>Java</Tab>
-                    <Tab>React</Tab>
-                    <Tab>MongoDB</Tab>
-                    <Tab>Vanilla Javascript</Tab>
-                    <Tab>Basic Challenges </Tab>
-                    </Tabs>
+                    <div id="tabs">
+                        <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({activeTab:tabId})} ripple>  
+                            <Tab id="text" >All Projects</Tab>
+                            <Tab id="text">Java</Tab>
+                            <Tab id="text">React</Tab>
+                            <Tab id="text">MongoDB</Tab>
+                            <Tab id="text">Vanilla Javascript</Tab>
+                            <Tab id="text">Basic Challenges </Tab>
+                        </Tabs>
+                    </div>
                         <Grid >
                             <Cell col={12}>
                                 <div className="content">{this.toggleCategories()}</div>
                             </Cell>
                         </Grid>
                 </div>
-
-                <div className="category-tabs-select">
-                <Layout>
-                        <Drawer >
-                            <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({activeTab:tabId})} ripple>
-                                <Tab>All Projects</Tab>
-                                <Tab>Java</Tab>
-                                <Tab>React</Tab>
-                                <Tab>MongoDB</Tab>
-                                <Tab>Vanilla Javascript</Tab>
-                                <Tab>Basic Challenges Javascript</Tab>
-                                <Tab>Basic Challenges Java</Tab>
-                            </Tabs>
-                        </Drawer>
-                        <Content>
-                            <Grid >
-                                <Cell col={12}>
-                                    <div className="content">{this.toggleCategories()}</div>
-                                </Cell>
-                            </Grid>
-                        </Content>
-                        </Layout>
-              </div>
-            </div>
             )
     }        
 }
