@@ -21,7 +21,7 @@ class About extends Component {
                         <img
                             src={Profile}
                             alt="profile pic"
-                            style={{ height:'300px' }}/>
+                            style={{ height:'300px'}}/>
                         </div>
                         <h2 style={{paddingTop: '0.1em',color:'white'}}>Hamad Ali</h2>
                         <h4 style={{color: 'grey'}}> Junior Software Engineer</h4>
@@ -51,7 +51,7 @@ class About extends Component {
                         </div>
                         
                         {/* Botom left of page of all the skills and {percentage of knowledge} code writen in skills.js file */}
-                        <div id="flex">
+                
                             <div id="skills-div">
                                 <h2 style={{color:'white'}}>Skills</h2>  
                                 <div id="skill-div">
@@ -67,7 +67,7 @@ class About extends Component {
                                     <Skills className="skill" skill="CSS"   progress={80}/> 
                                     <Skills className="skill" skill="Swift"      progress={5}/> 
                                 </div>
-                            </div>
+                    
                         </div>
                         
                           
@@ -77,7 +77,7 @@ class About extends Component {
                     {/* content of right side of the page */}
                     <Cell className="aboutme-right-col" col={8}> 
                     {/* About me section top right */}
-                    <div id="switch">
+        
                             <div id="aboutme-div">
                                 <h2>About Me</h2>
                                     <p>Currently I am on a 15 months Apprenticeship at DMW Group. Completed the first
@@ -91,7 +91,7 @@ class About extends Component {
                                         I also enjoy watching Formula 1 and Boxing. Excited by facing new challenges and learning something new.I am Adventurous
                                         outgoing person who is career-driven and have the determination to succeed!</p>     
                         </div>
-                    </div>
+                  
                      <hr style={{borderTop: '3px solid #e22947'}}/>
 
                      {/* Bottom right with all the Certifications */}

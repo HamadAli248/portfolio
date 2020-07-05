@@ -1,5 +1,5 @@
 /* Styling for smaller mobile max-width:320 */
-@media all and (max-width: 320px){
+@media all and (max-width: 425px){
 /* General Layout */
   body{
     background-color: #27221f;
@@ -10,7 +10,6 @@
 
 .avatar-img{
   padding-top: 2em;
-  width: 20px;
 }
 .social-links{
   display: flex;
@@ -39,7 +38,22 @@
 
 /* ============================================================================================= */
 /* Projects Page */
-  
+#tabs{
+  margin-left: 4em;
+  width: 450px;
+  overflow-x: scroll;
+}
+#text{
+  color: white;
+  overflow:visible;
+}
+/* .mdl-tabs__tab{
+  background-color: beige;
+  overflow: visible;
+ 
+} */
+
+
 }  
 
 
@@ -81,7 +95,7 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
   color: white;
 }
 #Certification-grid{
-  height: 500px;
+  height: 530px;
   overflow-y: scroll;
   display: flex;
   flex-wrap: wrap;
