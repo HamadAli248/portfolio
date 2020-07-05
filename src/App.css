@@ -1,5 +1,7 @@
-/* Styling for smaller mobile max-width:320 */
-@media all and (max-width: 425px){
+/* ============================================================================================= */
+/* Styling for mobile max-width: 479px */
+/* ============================================================================================= */
+@media all and (max-width: 479px){
 /* General Layout */
   body{
     background-color: #27221f;
@@ -52,13 +54,22 @@
   overflow: visible;
  
 } */
-
-
 }  
 
 
 /* ============================================================================================= */
-/* MEDIA QUERY for laptop-L min-width:1440px */
+/* MEDIA QUERY for Specail case */
+/* ============================================================================================= */
+
+
+@media (max-width:1300px) and (min-width: 1025px){
+  .social-links i{
+    font-size: 3em !important;
+  }
+}
+
+/* ============================================================================================= */
+/* MEDIA QUERY for laptop min-width:1025px */
 /* ============================================================================================= */
 
 @media all and (min-width: 1025px){
@@ -75,7 +86,7 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
 .social-links{
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  
 }
 .social-links i{
     color:white;
@@ -127,5 +138,3 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
  text-align: center;
 }
 }
-
-/* =============================== =============================== =============================== =============================== =============================== */
