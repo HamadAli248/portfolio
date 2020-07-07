@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, Tab , Grid , Cell,Layout,Content} from 'react-mdl';
+import { Tabs, Tab , Grid , Cell} from 'react-mdl';
 import { ReactProjects } from './projectLanuages/ReactProjects';
 import { VanillaJavaScript } from './projectLanuages/VanillaJavaScript';
 import { BasicChallenges } from './projectLanuages/BasicChallenges';
@@ -10,8 +10,7 @@ class Projects extends Component {
     constructor(props){
         super(props);
         this.state = { activeTab: 0 };
-    }
-       
+    }     
     toggleCategories(){
             if(this.state.activeTab === 0){
                 return(
@@ -41,13 +40,10 @@ class Projects extends Component {
                 )
             }else if(this.state.activeTab === 5){
                 return(
-                    <BasicChallenges />     
-                                                 
+                    <BasicChallenges />                                  
                 )
             }
     }
-   
-    
     render() {
         return(
                 <div className="category-tabs">
@@ -71,6 +67,3 @@ class Projects extends Component {
     }        
 }
 export default Projects;
-
-
-     
