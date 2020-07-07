@@ -3,13 +3,13 @@
 /* ============================================================================================= */
 @media all and (max-width: 479px){
 /* General Layout */
-  body{
-    background-color: #27221f;
-  }
+  
   
 /* ============================================================================================= */
 /* landing Page */
-
+#aboutMePage{
+  background-color: #2e2c2b;
+}
 .avatar-img{
   padding-top: 2em;
 }
@@ -58,16 +58,16 @@
 
 @media  (min-width: 480px) and (max-width: 1024px){
   /* General Layout */
-  body{
-    background-color: #27221f;
-  }
+  
   .mdl-cell{
     width: 100% !important;
   }
   
 /* ============================================================================================= */
 /* landing Page */
-
+#aboutMePage{
+  background-color: #2e2c2b;
+}
 .avatar-img{
   padding-top: 2em;
 }
@@ -149,7 +149,6 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
 }
 #aboutMePage{
   background-color: #2e2c2b;
-  
 }
 .aboutme-right-col{
   background: #27221f;
