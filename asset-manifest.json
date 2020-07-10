@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.05284cec.chunk.css",
-    "main.js": "/my-portfolio/static/js/main.bed6a218.chunk.js",
-    "main.js.map": "/my-portfolio/static/js/main.bed6a218.chunk.js.map",
-    "runtime-main.js": "/my-portfolio/static/js/runtime-main.f9973a70.js",
-    "runtime-main.js.map": "/my-portfolio/static/js/runtime-main.f9973a70.js.map",
-    "static/css/2.559fd73f.chunk.css": "/my-portfolio/static/css/2.559fd73f.chunk.css",
-    "static/js/2.14206dd9.chunk.js": "/my-portfolio/static/js/2.14206dd9.chunk.js",
-    "static/js/2.14206dd9.chunk.js.map": "/my-portfolio/static/js/2.14206dd9.chunk.js.map",
-    "index.html": "/my-portfolio/index.html",
-    "precache-manifest.cb15704f89fe394f5bfe730021c1d241.js": "/my-portfolio/precache-manifest.cb15704f89fe394f5bfe730021c1d241.js",
-    "service-worker.js": "/my-portfolio/service-worker.js",
-    "static/css/2.559fd73f.chunk.css.map": "/my-portfolio/static/css/2.559fd73f.chunk.css.map",
-    "static/css/main.05284cec.chunk.css.map": "/my-portfolio/static/css/main.05284cec.chunk.css.map",
-    "static/media/GBuster.jpg": "/my-portfolio/static/media/GBuster.d4af090a.jpg",
-    "static/media/HamadAliCV.pdf": "/my-portfolio/static/media/HamadAliCV.dda9db53.pdf"
+    "main.css": "/portfolio/static/css/main.05284cec.chunk.css",
+    "main.js": "/portfolio/static/js/main.41de4116.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.41de4116.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.3fe3d468.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.3fe3d468.js.map",
+    "static/css/2.559fd73f.chunk.css": "/portfolio/static/css/2.559fd73f.chunk.css",
+    "static/js/2.14206dd9.chunk.js": "/portfolio/static/js/2.14206dd9.chunk.js",
+    "static/js/2.14206dd9.chunk.js.map": "/portfolio/static/js/2.14206dd9.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.564c23d0dfc481935e01e2f2c24297de.js": "/portfolio/precache-manifest.564c23d0dfc481935e01e2f2c24297de.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.559fd73f.chunk.css.map": "/portfolio/static/css/2.559fd73f.chunk.css.map",
+    "static/css/main.05284cec.chunk.css.map": "/portfolio/static/css/main.05284cec.chunk.css.map",
+    "static/media/GBuster.jpg": "/portfolio/static/media/GBuster.d4af090a.jpg",
+    "static/media/HamadAliCV.pdf": "/portfolio/static/media/HamadAliCV.dda9db53.pdf"
   }
 }
