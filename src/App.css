@@ -40,14 +40,23 @@
 
 /* ============================================================================================= */
 /* Projects Page */
-#tabs{
-  margin-left: 4em;
-  width: 450px;
-  overflow-x: scroll;
+
+.project-grid{
+  display: flex;
+  flex-wrap: wrap;
 }
-#text{
-  color: white;
-  overflow:visible;
+#cardtext{
+  min-height:30px ;
+}
+#button{
+  margin-left: 5%;
+}
+#project-grid-BasicChallengesInJava{
+  height: 100%;
+}
+
+.category-tabs,.category-tabs-select{
+ text-align: center;
 }
 }  
 
@@ -98,14 +107,22 @@
 
 /* ============================================================================================= */
 /* Projects Page */
-#tabs{
-  margin-left: 4em;
-  width: 450px;
-  overflow-x: scroll;
+.project-grid{
+  display: flex;
+  flex-wrap: wrap;
 }
-#text{
-  color: white;
-  overflow:visible;
+#cardtext{
+  min-height:30px ;
+}
+#button{
+  margin-left: 5%;
+}
+#project-grid-BasicChallengesInJava{
+  height: 100%;
+}
+
+.category-tabs,.category-tabs-select{
+ text-align: center;
 }
 }
 
@@ -121,6 +138,21 @@
     font-size: 3em !important;
   }
 }
+@media (max-width:924px) {
+  /* .category-tabs{
+    margin-top: -30px !important;
+  } */
+  #tabs{
+    /* visibility: hidden; */
+    margin-left: 4em;
+    width: 900px;
+    overflow-x: scroll;
+  }
+  /* #text{
+    min-width: 500px;
+ }*/
+} 
+
 
 /* ============================================================================================= */
 /* MEDIA QUERY for laptop min-width:1025px */
