@@ -27,7 +27,7 @@ export const VanillaJavaScript = () =>
                         imgmyUrl = {urlPortfolio}
                         cardText="Basic Project of building my portfolio"                
                         GithubbuttonText="https://github.com/HamadAli248/portfolio"
-                        livebuttonText="https://hamadali248.github.io/portfolio/"
+                        livebuttonText="https://hamadali248.github.io/basic-portfolio/"
                         livebuttondisplay="Live Demo"
                     />
                     <ProjectCard
