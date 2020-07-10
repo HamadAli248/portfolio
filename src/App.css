@@ -61,7 +61,7 @@
 }  
 
 /* ============================================================================================= */
-/* MEDIA QUERY for mode between mobile and Tablet min-width:  max-width:  */
+/* MEDIA QUERY for mode between mobile and Tablet min-width:  max-width: 1024 */
 /* ============================================================================================= */
 
 
@@ -138,19 +138,10 @@
     font-size: 3em !important;
   }
 }
-@media (max-width:924px) {
-  /* .category-tabs{
-    margin-top: -30px !important;
-  } */
-  #tabs{
-    /* visibility: hidden; */
-    margin-left: 4em;
-    width: 900px;
-    overflow-x: scroll;
+@media (max-width:1024px) {
+  #mobile-tabs{
+   margin-left: 4em;
   }
-  /* #text{
-    min-width: 500px;
- }*/
 } 
 
 
@@ -222,4 +213,7 @@ background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
 .category-tabs,.category-tabs-select{
  text-align: center;
 }
+#mobile-tabs{
+  margin: auto;
+ }
 }
