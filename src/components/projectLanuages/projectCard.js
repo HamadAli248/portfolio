@@ -7,7 +7,7 @@ class ProjectCard extends Component {
 
     render(props) {
         return(
-            <Card className="project-grid-initial" shadow={5} style={{maxWidth: '310px',maxheight:'300px' ,margin:'auto',marginTop:'10px',textAlign:'center'}}>
+            <Card className="project-grid-initial" shadow={8} style={{maxWidth: '310px',maxheight:'300px' ,margin:'auto',marginTop:'10px',textAlign:'center'}}>
              <CardTitle style={{color:'black', height: '176px', background: 'url(' + this.props.imgmyUrl + ') center / cover', maxwidth: '100%',maxheight: '100%'}}/>
              <CardText id="cardtext">
                  {this.props.cardText}

@@ -9,17 +9,16 @@ let urlApi ="https://pngimage.net/wp-content/uploads/2018/05/api-logo-png-4.png"
 export const ReactProjects = () =>
                 <div className="project-grid" id="project-grid-ReactProjects">
                     <ProjectCard
-                        imgmyUrl = {urlinsta}
-                        cardText="This was a group project working with react and building a copy of Instagram"                
-                        GithubbuttonText="https://github.com/HamadAli248/insta"
-                    />
-                    
-                    <ProjectCard
                         imgmyUrl = {urlTetris}
                         cardText="Tetris Game"                
                         GithubbuttonText="https://github.com/HamadAli248/Tetris-Game"
                         livebuttonText="https://hamadali248.github.io/Tetris-Game/"
                         livebuttondisplay="Live Demo"
+                    />
+                    <ProjectCard
+                        imgmyUrl = {urlinsta}
+                        cardText="This was a group project working with react and building a copy of Instagram"                
+                        GithubbuttonText="https://github.com/HamadAli248/insta"
                     />
                     <ProjectCard
                         imgmyUrl = {urlCodeEditor}
