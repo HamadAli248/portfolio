@@ -63,7 +63,9 @@ export default function ScrollableTabsButtonAuto() {
 
   return (
     <div className={classes.root}>
-      <AppBar position="auto" color="default">
+      
+      <AppBar position="auto" color="default"> 
+      <div id="mobile-tabs">
         <Tabs
           value={value}
           onChange={handleChange}
@@ -73,14 +75,16 @@ export default function ScrollableTabsButtonAuto() {
           scrollButtons="auto"
           aria-label="scrollable auto tabs example"
         >
+         
           <Tab label="All Projects" {...a11yProps(0)} />
           <Tab label="Java" {...a11yProps(1)} />
           <Tab label="React" {...a11yProps(2)} />
           <Tab label="MongoDB" {...a11yProps(3)} />
           <Tab label="Vanilla Javascript" {...a11yProps(4)} />
           <Tab label="Basic Challenges" {...a11yProps(5)} /> 
+          
         </Tabs>
-       
+       </div>
       </AppBar>
       <TabPanel value={value} index={0}>
             <ReactProjects />
