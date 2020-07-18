@@ -42,11 +42,11 @@ class About extends Component {
                             </a>
                              {/*Email*/}
                             <a href="mailto:hammadali248@gmail.com">
-                                <i className="font" className="fa fa-envelope" aria-hidden="true"/>
+                                <i  className="fa fa-envelope" aria-hidden="true"/>
                             </a>
                              {/*Phonel*/}
                             <a href="tel:00447424983269">
-                                <i className="font" className="fa fa-phone-square" aria-hidden="true"/>
+                                <i  className="fa fa-phone-square" aria-hidden="true"/>
                             </a>
                         </div>
                         
