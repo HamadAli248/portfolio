@@ -13,8 +13,8 @@ class ProjectCard extends Component {
                  {this.props.cardText}
              </CardText>
              <CardActions id="buttontab" border>
-                <a id="button" href={this.props.GithubbuttonText}  target="_blank"><Button colored >Git Hub Code</Button> </a>
-                <a id="button" href={this.props.livebuttonText}  target="_blank"><Button colored>{this.props.livebuttondisplay}</Button> </a>
+                <a id="button" href={this.props.GithubbuttonText}  ><Button colored >Git Hub Code</Button> </a>
+                <a id="button" href={this.props.livebuttonText}  ><Button colored>{this.props.livebuttondisplay}</Button> </a>
              </CardActions>
              </Card>  
         )
