@@ -65,7 +65,6 @@ class About extends Component {
                                     <Skills className="skill" skill="NodeJS"     progress={15}/>
                                     <Skills className="skill" skill="HTML"   progress={80}/> 
                                     <Skills className="skill" skill="CSS"   progress={80}/> 
-                                    <Skills className="skill" skill="Swift"      progress={5}/> 
                                 </div>
                     
                         </div>
