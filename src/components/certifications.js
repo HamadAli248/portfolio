@@ -9,14 +9,16 @@ import MicrosoftExam480 from './images/certificationsLogo/MicrosoftExam480.png';
 import Git from './images/certificationsLogo/Git.png';
 import ComputerHacking from './images/certificationsLogo/ComputerHacking.png';
 import AWS from './images/certificationsLogo/AWS.png';
-
+import AwsCCP from './images/certifications/AWS Certified Cloud Practitioner certificate.pdf';
+import FundamentalsComputerHacking from './images/certifications/fundamentals-of-computer-hacking.pdf';
+import GitForBeginners from './images/certifications/git-for-beginners.pdf';
 
 export const Certification = () =>
                 <div  id="Certification-grid">
                     <CertificationCard
                     imgmyUrl={AWS}
                     certTitle="AWS Certified Cloud Practitioner"
-                    certURL="https://www.youracclaim.com/earner/earned/badge/1ff543f9-aecd-4963-ba11-8bf704d67539"
+                    certURL={AwsCCP}
                     />
                     <CertificationCard
                     imgmyUrl={MicrosoftExam480}
@@ -57,12 +59,12 @@ export const Certification = () =>
                     <CertificationCard
                     imgmyUrl={Git}
                     certTitle="GIT for beginners (an online course administered by StackSkills.)"
-                    certURL="https://stackskills.com/courses/833835/certificate?utm_source=student_mailer&utm_medium=email&utm_campaign=issued_certificate_notification"
+                    certURL={GitForBeginners}
                     /> 
                     <CertificationCard
                     imgmyUrl={ComputerHacking}
                     certTitle="Fundamentals of Computer Hacking (an online course administered by StackSkills)"
-                    certURL="https://stackskills.com/courses/205282/certificate?utm_source=student_mailer&utm_medium=email&utm_campaign=issued_certificate_notification"
+                    certURL={FundamentalsComputerHacking}
                     />  
                     
                 </div>
