@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4ad0d21cbae45a705f4089aedf14945c",
+    "revision": "11eb7ad15c5d6a517c9809e8ec3ec44b",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "fa428b117483ecddb506",
+    "revision": "abfce455054845424f0b",
     "url": "/portfolio/static/css/2.e4346227.chunk.css"
   },
   {
-    "revision": "ffb5aa59ace86153ee4e",
+    "revision": "284335a94c7f50aca532",
     "url": "/portfolio/static/css/main.25ecc1b3.chunk.css"
   },
   {
-    "revision": "fa428b117483ecddb506",
-    "url": "/portfolio/static/js/2.2a57991b.chunk.js"
+    "revision": "abfce455054845424f0b",
+    "url": "/portfolio/static/js/2.bccf36fb.chunk.js"
   },
   {
-    "revision": "ffb5aa59ace86153ee4e",
-    "url": "/portfolio/static/js/main.df6407aa.chunk.js"
+    "revision": "284335a94c7f50aca532",
+    "url": "/portfolio/static/js/main.46eb90d3.chunk.js"
   },
   {
     "revision": "063006be7bb8ee6e2e88",
     "url": "/portfolio/static/js/runtime-main.e9ec26ce.js"
+  },
+  {
+    "revision": "3a8ad87b287b39bfee5eb84bd09c97c5",
+    "url": "/portfolio/static/media/AWS Certified Cloud Practitioner certificate.3a8ad87b.pdf"
   },
   {
     "revision": "78c52c0ab13c4ccf820319d221609ba8",
@@ -62,6 +66,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "77c49338f87054c630655d41b46952f0",
     "url": "/portfolio/static/media/MicrosoftExam480.77c49338.png"
+  },
+  {
+    "revision": "327c75fafe8306aa00ea7b7bb87cd332",
+    "url": "/portfolio/static/media/fundamentals-of-computer-hacking.327c75fa.pdf"
+  },
+  {
+    "revision": "bf1cc190b9bd8f397e499370ad42998d",
+    "url": "/portfolio/static/media/git-for-beginners.bf1cc190.pdf"
   },
   {
     "revision": "53760031fa35db187855a2ae545fda0d",
