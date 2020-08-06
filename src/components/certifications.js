@@ -1,25 +1,39 @@
 import React from 'react';
 import CertificationCard from './certificationcard';
+import HTML from './images/certificationsLogo/HTML.png';
+import CSS from './images/certificationsLogo/CSS.png';
+import JavaScript from './images/certificationsLogo/JavaScript.png';
+import Java from './images/certificationsLogo/Java.png';
+import FreeCodeCamp from './images/certificationsLogo/FreeCodeCamp.png';
+import MicrosoftExam480 from './images/certificationsLogo/MicrosoftExam480.png';
+import Git from './images/certificationsLogo/Git.png';
+import ComputerHacking from './images/certificationsLogo/ComputerHacking.png';
+import AWS from './images/certificationsLogo/AWS.png';
 
 
-let HTML="https://lh3.googleusercontent.com/P5ZYmONNF6pgwbBx-zqQWdWnpgQH0S-RGmDRUHpy8CSeaLHLdIFlFiP6hpCAbp192A";
-let CSS="https://lh3.googleusercontent.com/wnbpuJjt9GNcv41rbtfYn-v3G3qEaBG95Ob96t_t3FM-2AO470HRlIQcqNCo3HxC8WZP";
-let JavaScript="https://lh3.googleusercontent.com/WPaGf2DLOuiRhKtHzMpJUppuOY3672l2ycmO5xkSoLzq_ShDb4aXbhbX8MJysRvLgB4";
-let Java="https://www.xyzapk.com/wp-content/uploads/2020/04/com.sololearn.java_.jpg.png";
-let ResponsiveWebDesign="https://upload.wikimedia.org/wikipedia/commons/3/39/FreeCodeCamp_logo.png";
-let MicrosoftExam480="https://images.youracclaim.com/images/84f513e4-256d-4aa0-a29d-973bcb39d87a/Programming%2Bin%2BHTML5%2Bwith%2BJavaScript%2Band%2BCss3-01.png";
 export const Certification = () =>
                 <div  id="Certification-grid">
+                    <CertificationCard
+                    imgmyUrl={AWS}
+                    certTitle="AWS Certified Cloud Practitioner"
+                    certURL="https://www.youracclaim.com/earner/earned/badge/1ff543f9-aecd-4963-ba11-8bf704d67539"
+                    />
                     <CertificationCard
                     imgmyUrl={MicrosoftExam480}
                     certTitle="Microsoft Exam 480: Programming in HTML5 with JavaScript and CSS3"
                     certURL="https://www.youracclaim.com/badges/9637458f-d1c1-4746-a31d-72cf99cfa647/public_url"
                     />
                     <CertificationCard
-                    imgmyUrl={ResponsiveWebDesign}
+                    imgmyUrl={FreeCodeCamp}
                     certTitle="Responsive Web Design"
                     certURL="https://www.freecodecamp.org/certification/fcc8eef0fcb-973d-4c54-bba3-c0fc28b43bb7/responsive-web-design"
-                    />                    
+                    /> 
+                    <CertificationCard
+                    imgmyUrl={FreeCodeCamp}
+                    certTitle="JavaScript Algorithms and Data Structures"
+                    certURL="https://www.freecodecamp.org/certification/fcc8eef0fcb-973d-4c54-bba3-c0fc28b43bb7/javascript-algorithms-and-data-structures"
+                    /> 
+                                      
                     <CertificationCard
                     imgmyUrl={Java}
                     certTitle="Java Tutorial course "
@@ -40,4 +54,15 @@ export const Certification = () =>
                     certTitle="JavaScript Tutorial course"
                     certURL="https://www.sololearn.com/Certificate/1024-13208616/pdf/"
                     />
+                    <CertificationCard
+                    imgmyUrl={Git}
+                    certTitle="GIT for beginners (an online course administered by StackSkills.)"
+                    certURL="https://stackskills.com/courses/833835/certificate?utm_source=student_mailer&utm_medium=email&utm_campaign=issued_certificate_notification"
+                    /> 
+                    <CertificationCard
+                    imgmyUrl={ComputerHacking}
+                    certTitle="Fundamentals of Computer Hacking (an online course administered by StackSkills)"
+                    certURL="https://stackskills.com/courses/205282/certificate?utm_source=student_mailer&utm_medium=email&utm_campaign=issued_certificate_notification"
+                    />  
+                    
                 </div>
