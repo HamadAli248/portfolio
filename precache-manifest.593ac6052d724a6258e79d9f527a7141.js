@@ -1,35 +1,67 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "856171002f39c1c1e6966f36ccd5b9f8",
+    "revision": "4ad0d21cbae45a705f4089aedf14945c",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "5a12e2ccbf8a85e09b33",
+    "revision": "fa428b117483ecddb506",
     "url": "/portfolio/static/css/2.e4346227.chunk.css"
   },
   {
-    "revision": "7d4cbbe79c21ee0cce1f",
+    "revision": "ffb5aa59ace86153ee4e",
     "url": "/portfolio/static/css/main.25ecc1b3.chunk.css"
   },
   {
-    "revision": "5a12e2ccbf8a85e09b33",
-    "url": "/portfolio/static/js/2.e4cd5b47.chunk.js"
+    "revision": "fa428b117483ecddb506",
+    "url": "/portfolio/static/js/2.2a57991b.chunk.js"
   },
   {
-    "revision": "7d4cbbe79c21ee0cce1f",
-    "url": "/portfolio/static/js/main.708bdf1a.chunk.js"
+    "revision": "ffb5aa59ace86153ee4e",
+    "url": "/portfolio/static/js/main.df6407aa.chunk.js"
   },
   {
     "revision": "063006be7bb8ee6e2e88",
     "url": "/portfolio/static/js/runtime-main.e9ec26ce.js"
   },
   {
+    "revision": "78c52c0ab13c4ccf820319d221609ba8",
+    "url": "/portfolio/static/media/CSS.78c52c0a.png"
+  },
+  {
+    "revision": "38c1792bd53b9a1e39b62458882a5efa",
+    "url": "/portfolio/static/media/ComputerHacking.38c1792b.png"
+  },
+  {
+    "revision": "48a892e5d76bf282c5bfc825797af9e6",
+    "url": "/portfolio/static/media/FreeCodeCamp.48a892e5.png"
+  },
+  {
     "revision": "d4af090ad62fc5045588628c687479a1",
     "url": "/portfolio/static/media/GBuster.d4af090a.jpg"
   },
   {
+    "revision": "9adb24ddf43f0517a616276191e97774",
+    "url": "/portfolio/static/media/Git.9adb24dd.png"
+  },
+  {
+    "revision": "5ca2b6a174269026d220901249a8e07c",
+    "url": "/portfolio/static/media/HTML.5ca2b6a1.png"
+  },
+  {
     "revision": "dda9db5347b9d9ff9ee6a4fe18023eb7",
     "url": "/portfolio/static/media/HamadAliCV.dda9db53.pdf"
+  },
+  {
+    "revision": "8c08ce89a5a494ab3e702fd2844e1cb0",
+    "url": "/portfolio/static/media/Java.8c08ce89.png"
+  },
+  {
+    "revision": "bfa9773b1e7881ccfa0e0c84d518a933",
+    "url": "/portfolio/static/media/JavaScript.bfa9773b.png"
+  },
+  {
+    "revision": "77c49338f87054c630655d41b46952f0",
+    "url": "/portfolio/static/media/MicrosoftExam480.77c49338.png"
   },
   {
     "revision": "53760031fa35db187855a2ae545fda0d",
