@@ -13,7 +13,7 @@ class CertificationCard extends Component {
                 {this.props.certTitle}
             </CardText>
             <CardActions border>
-            <a id="button" href={this.props.certURL}  ><Button colored> View Certification</Button></a>
+            <a id="button" href={this.props.certURL}  target="_blank"><Button colored> View Certification</Button></a>
             </CardActions>
             </Card>
         )
