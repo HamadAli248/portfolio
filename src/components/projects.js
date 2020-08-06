@@ -1,4 +1,5 @@
 import React from 'react';
+import { AllProjects } from './projectLanuages/AllProjects';
 import { ReactProjects } from './projectLanuages/ReactProjects';
 import { VanillaJavaScript } from './projectLanuages/VanillaJavaScript';
 import { BasicChallenges } from './projectLanuages/BasicChallenges';
@@ -87,10 +88,7 @@ export default function ScrollableTabsButtonAuto() {
        </div>
       </AppBar>
       <TabPanel value={value} index={0}>
-            <ReactProjects />
-            <JavaProjects/>
-            <VanillaJavaScript />
-            <MongoDb/>
+      <AllProjects/>
       </TabPanel>
       <TabPanel value={value} index={1}>
          <JavaProjects/>

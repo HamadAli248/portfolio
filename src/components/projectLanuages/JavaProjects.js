@@ -1,13 +1,11 @@
 import React from 'react';
 import ProjectCard from './projectCard';
-
-
-let urlCalculator="https://coopervision.ca/sites/coopervision.ca/files/tc-calculator-icon.png?timestamp=1493161192"
-let urlBrickbreaker = "https://img.favpng.com/10/16/14/brik-extreme-brick-breaking-brik-brick-breaker-super-brick-break-3d-brick-game-png-favpng-4dm5ngz0729B9TCeakTsuETef.jpg";
-let urlDataBase="https://img.favpng.com/21/8/2/database-logo-png-favpng-AHZwNuJZ7YW8VpjPxL9xsx9wN.jpg";
-let urlBooking="https://www.systembookings.com/wp-content/uploads/2017/05/System-Bookings-Contact-us-let-us-help-you-build-your-booking-system.png";
-let urlChatbox ="https://www.nicepng.com/png/detail/53-537477_chat-box-logo-chat-box-clip-art.png";
-let urlTDD="https://marsner.com/wp-content/uploads/test-driven-development-TDD.png";
+import urlCalculator from '../images/challangesLogo/urlCalculator.png'
+import urlBrickbreaker from '../images/challangesLogo/urlBrickbreaker.jpg'
+import urlBooking from '../images/challangesLogo/urlBooking.png'
+import urlChatbox from '../images/challangesLogo/urlChatbox.png'
+import urlTDD from '../images/challangesLogo/urlTDD.png'
+import urlDataBase from '../images/challangesLogo/urlDataBase.jpg';
 
 export const JavaProjects = () =>   
                     <div className="project-grid" id="project-grid-JavaProjects">
