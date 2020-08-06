@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import Profile from '../GBuster.jpg';
+import Profile from './images/GBuster.jpg';
 import Skills from './skills';
 import {Certification} from './certifications'
 

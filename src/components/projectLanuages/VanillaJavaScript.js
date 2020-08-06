@@ -1,10 +1,9 @@
 import React from 'react';
 import ProjectCard from './projectCard';
-
-let urlDice="https://cdn1.vectorstock.com/i/1000x1000/34/10/dice-line-icon-gambling-outline-logo-vector-19733410.jpg";
-let urlPortfolio="https://www.happydesigner.co.uk/wp-content/uploads/2010/06/PortfolioMarketing-logo-1024x491.jpg";
-let urlKeyCode = "https://img.icons8.com/pastel-glyph/2x/automotive-generator.png"
-let urlcalculator="https://coopervision.ca/sites/coopervision.ca/files/tc-calculator-icon.png?timestamp=1493161192";
+import urlcalculator from '../images/challangesLogo/urlCalculator.png';
+import urlDice from '../images/challangesLogo/urlDice.jpg';
+import urlPortfolio from '../images/challangesLogo/urlPortfolio.jpg';
+import urlKeyCode from '../images/challangesLogo/urlKeyCode.png';
 
 
 export const VanillaJavaScript = () =>   

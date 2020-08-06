@@ -1,14 +1,14 @@
 import React from 'react';
 import ProjectCard from './projectCard';
+import urlChallenge from '../images/challangesLogo/urlChallenge.png';
+import urlCashMachine from '../images/challangesLogo/urlCashMachine.png';
+import urlTicketMacine from '../images/challangesLogo/urlTicketMacine.png';
+import urlZenGarden from '../images/challangesLogo/urlZenGarden.png';
+import urlDom from '../images/challangesLogo/urlDom.png';
+import urlJavalogo from '../images/challangesLogo/urlJavalogo.png';
+import urlDataBase from '../images/challangesLogo/urlDataBase.jpg';
+import urlTDD from '../images/challangesLogo/urlTDD.png'
 
-let urlChallenge= "https://www.w3schools.com/whatis/img_js.png";
-let urlCashMachine = "https://static.thenounproject.com/png/2077124-200.png";
-let urlTicketMacine = "https://cdn4.iconfinder.com/data/icons/train-commuter-station-subway/338/train-stations-002-512.png";
-let urlZenGarden = "https://www.cognifide.com/-/media/project/cognifidecom/blogs/2016/touch-ui-dialog-conversion/zengarden_stacked_rgb-fb.png?la=en&hash=F037A801E1ECE351A12F720B8727DFAA"
-let urlDom="https://ourcodeworld.com/public-media/articles/articleocw-56bba37e791bc.png"
-let urlJavalogo = "https://logos-download.com/wp-content/uploads/2016/10/Java_logo_icon.png";
-let urlDataBase="https://img.favpng.com/21/8/2/database-logo-png-favpng-AHZwNuJZ7YW8VpjPxL9xsx9wN.jpg";
-let urlTDD="https://marsner.com/wp-content/uploads/test-driven-development-TDD.png";
 
 export const BasicChallenges = () =>
                 <div className="project-grid" id="project-grid-BasicChallenges">
