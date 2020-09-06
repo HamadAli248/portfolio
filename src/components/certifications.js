@@ -12,6 +12,8 @@ import AWS from './images/certificationsLogo/AWS.png';
 import AwsCCP from './images/certifications/AWS Certified Cloud Practitioner certificate.pdf';
 import FundamentalsComputerHacking from './images/certifications/fundamentals-of-computer-hacking.pdf';
 import GitForBeginners from './images/certifications/git-for-beginners.pdf';
+import BCS from './images/certificationsLogo/BCSLOGO.jpg';
+import BCSCERT from './images/certifications/bcs-methodologies.pdf';
 
 export const Certification = () =>
                 <div  id="Certification-grid">
@@ -19,6 +21,11 @@ export const Certification = () =>
                     imgmyUrl={AWS}
                     certTitle="AWS Certified Cloud Practitioner"
                     certURL={AwsCCP}
+                    />
+                    <CertificationCard
+                    imgmyUrl={BCS}
+                    certTitle="BCS Level 4 Diploma in Software Development Methodologies"
+                    certURL={BCSCERT}
                     />
                     <CertificationCard
                     imgmyUrl={MicrosoftExam480}
