@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a20bec9d76705bf600e78eb96974d49a",
+    "revision": "ff90ea8862ae0c7849565e85f0946174",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "eb4832b4482726813acd",
+    "revision": "f9da3b668a37a883f23d",
     "url": "/portfolio/static/css/2.e4346227.chunk.css"
   },
   {
-    "revision": "871d39da26c849dd9d6e",
+    "revision": "6a5c874b4248ed4e3d12",
     "url": "/portfolio/static/css/main.25ecc1b3.chunk.css"
   },
   {
-    "revision": "eb4832b4482726813acd",
-    "url": "/portfolio/static/js/2.1b1a8045.chunk.js"
+    "revision": "f9da3b668a37a883f23d",
+    "url": "/portfolio/static/js/2.1c10b78a.chunk.js"
   },
   {
-    "revision": "871d39da26c849dd9d6e",
-    "url": "/portfolio/static/js/main.442655db.chunk.js"
+    "revision": "6a5c874b4248ed4e3d12",
+    "url": "/portfolio/static/js/main.6ac0261c.chunk.js"
   },
   {
     "revision": "063006be7bb8ee6e2e88",
@@ -32,14 +32,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/BCSLOGO.36d9202e.jpg"
   },
   {
-    "revision": "78c52c0ab13c4ccf820319d221609ba8",
-    "url": "/portfolio/static/media/CSS.78c52c0a.png"
-  },
-  {
-    "revision": "38c1792bd53b9a1e39b62458882a5efa",
-    "url": "/portfolio/static/media/ComputerHacking.38c1792b.png"
-  },
-  {
     "revision": "48a892e5d76bf282c5bfc825797af9e6",
     "url": "/portfolio/static/media/FreeCodeCamp.48a892e5.png"
   },
@@ -52,20 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/Git.9adb24dd.png"
   },
   {
-    "revision": "5ca2b6a174269026d220901249a8e07c",
-    "url": "/portfolio/static/media/HTML.5ca2b6a1.png"
-  },
-  {
     "revision": "dda9db5347b9d9ff9ee6a4fe18023eb7",
     "url": "/portfolio/static/media/HamadAliCV.dda9db53.pdf"
-  },
-  {
-    "revision": "8c08ce89a5a494ab3e702fd2844e1cb0",
-    "url": "/portfolio/static/media/Java.8c08ce89.png"
-  },
-  {
-    "revision": "bfa9773b1e7881ccfa0e0c84d518a933",
-    "url": "/portfolio/static/media/JavaScript.bfa9773b.png"
   },
   {
     "revision": "77c49338f87054c630655d41b46952f0",
@@ -76,6 +56,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/bcs-methodologies.464c92ce.pdf"
   },
   {
+    "revision": "7a39274e0593c193a942561e2c07d96d",
+    "url": "/portfolio/static/media/booking.7a39274e.jpeg"
+  },
+  {
+    "revision": "371d8a206f891be669f024fcd2617d0b",
+    "url": "/portfolio/static/media/brick-breaker.371d8a20.png"
+  },
+  {
     "revision": "327c75fafe8306aa00ea7b7bb87cd332",
     "url": "/portfolio/static/media/fundamentals-of-computer-hacking.327c75fa.pdf"
   },
@@ -84,16 +72,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/git-for-beginners.bf1cc190.pdf"
   },
   {
+    "revision": "fa7ab1336e620db52365a502ad502b96",
+    "url": "/portfolio/static/media/sololearn.fa7ab133.jpg"
+  },
+  {
     "revision": "53760031fa35db187855a2ae545fda0d",
     "url": "/portfolio/static/media/urlBlog.53760031.png"
-  },
-  {
-    "revision": "fed3d91993272778540e0bd8f6ad320d",
-    "url": "/portfolio/static/media/urlBooking.fed3d919.png"
-  },
-  {
-    "revision": "4fc34b305c0e80c62fa07378f3cfd115",
-    "url": "/portfolio/static/media/urlBrickbreaker.4fc34b30.jpg"
   },
   {
     "revision": "bde2fd9fd0fe43cf632c13e5cc69d972",
