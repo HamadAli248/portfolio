@@ -36,9 +36,9 @@ class About extends Component {
                             <a href="https://github.com/HamadAli248" rel="noopener noreferrer" target="_blank">
                                 <i className="fa fa-github-square"  aria-hidden="true"/>
                             </a>
-                            {/*free code camp*/}
-                            <a href="https://www.freecodecamp.org/fcc8eef0fcb-973d-4c54-bba3-c0fc28b43bb7" rel="noopener noreferrer" target="_blank">
-                                <i className="fa fa-free-code-camp"  aria-hidden="true"/>
+                            {/*instagram*/}
+                            <a href="https://www.instagram.com/hamad_4li/" rel="noopener noreferrer" target="_blank">
+                                <i className="fa fa-instagram"  aria-hidden="true"/>
                             </a>
                              {/*Email*/}
                             <a href="mailto:hammadali248@gmail.com">
@@ -79,7 +79,7 @@ class About extends Component {
         
                             <div id="aboutme-div">
                                 <h2>About Me</h2>
-                                    <p>Currently I am on a 15 months Apprenticeship at DMW Group. Completed the first
+                                    <p>Currently I am on a 15 months Apprenticeship at <a href="https://www.dmwgroup.com/">DMW Group</a>. Completed the first
                                         12-week training at Code Nation, Manchester. Learning Front-End development including HTML5, CSS3, JavaScript,
                                         React, Back-End programming such as APIs, Node.JS, Mongo. DB, MySQL, Express, 
                                         iOS Swift programming and using the terminal and command line,and using git hub. I've have also been learning Java and
