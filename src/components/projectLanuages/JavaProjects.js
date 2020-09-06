@@ -1,16 +1,15 @@
 import React from 'react';
 import ProjectCard from './projectCard';
-import urlCalculator from '../images/challangesLogo/urlCalculator.png'
-import urlBrickbreaker from '../images/challangesLogo/urlBrickbreaker.jpg'
-import urlBooking from '../images/challangesLogo/urlBooking.png'
-import urlChatbox from '../images/challangesLogo/urlChatbox.png'
-import urlTDD from '../images/challangesLogo/urlTDD.png'
+import urlCalculator from '../images/challangesLogo/urlCalculator.png';
+import urlBrickbreaker from '../images/challangesLogo/brick-breaker.png';
+import Booking from '../images/challangesLogo/booking.jpeg';
+import urlChatbox from '../images/challangesLogo/urlChatbox.png';
+import urlTDD from '../images/challangesLogo/urlTDD.png';
 import urlDataBase from '../images/challangesLogo/urlDataBase.jpg';
-
 export const JavaProjects = () =>   
                     <div className="project-grid" id="project-grid-JavaProjects">
                      <ProjectCard
-                    imgmyUrl = {urlBooking}
+                    imgmyUrl = {Booking}
                     cardText="Goup project of building Room Booking System application with Spring Boot and PostgreSQL database"                
                     GithubbuttonText="https://github.com/HamadAli248/RoomBookingSystem"
                     />  
@@ -45,5 +44,4 @@ export const JavaProjects = () =>
                         cardText="Learning Databases and send,requesting data by APIs from postman"                
                         GithubbuttonText="https://github.com/HamadAli248/Databases-Demo"
                     />
-
                     </div>

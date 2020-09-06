@@ -1,13 +1,10 @@
 import React from 'react';
 import CertificationCard from './certificationcard';
-import HTML from './images/certificationsLogo/HTML.png';
-import CSS from './images/certificationsLogo/CSS.png';
-import JavaScript from './images/certificationsLogo/JavaScript.png';
-import Java from './images/certificationsLogo/Java.png';
+import sololearn from './images/certificationsLogo/sololearn.jpg';
 import FreeCodeCamp from './images/certificationsLogo/FreeCodeCamp.png';
 import MicrosoftExam480 from './images/certificationsLogo/MicrosoftExam480.png';
 import Git from './images/certificationsLogo/Git.png';
-import ComputerHacking from './images/certificationsLogo/ComputerHacking.png';
+import ComputerHacking from './images/certificationsLogo/hacker.jpeg';
 import AWS from './images/certificationsLogo/AWS.png';
 import AwsCCP from './images/certifications/AWS Certified Cloud Practitioner certificate.pdf';
 import FundamentalsComputerHacking from './images/certifications/fundamentals-of-computer-hacking.pdf';
@@ -44,22 +41,22 @@ export const Certification = () =>
                     /> 
                                       
                     <CertificationCard
-                    imgmyUrl={Java}
+                    imgmyUrl={sololearn}
                     certTitle="Java Tutorial course "
                     certURL="https://www.sololearn.com/Certificate/1068-13208616/pdf/"
                     />
                     <CertificationCard
-                    imgmyUrl={HTML}
+                    imgmyUrl={sololearn}
                     certTitle="HTML Fundamentals course"
                     certURL="https://www.sololearn.com/Certificate/1014-13208616/pdf/"
                     />
                     <CertificationCard
-                    imgmyUrl={CSS}
+                    imgmyUrl={sololearn}
                     certTitle="CSS Fundamentals course"
                     certURL="https://www.sololearn.com/Certificate/1023-13208616/pdf/"
                     />
                     <CertificationCard
-                    imgmyUrl={JavaScript}
+                    imgmyUrl={sololearn}
                     certTitle="JavaScript Tutorial course"
                     certURL="https://www.sololearn.com/Certificate/1024-13208616/pdf/"
                     />

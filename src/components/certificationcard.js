@@ -8,7 +8,7 @@ class CertificationCard extends Component {
     render(props) {
         return(
             <Card shadow={0} style={{width: '350px', height: '380px', margin: 'auto',marginTop:'20px'}}>
-            <CardTitle expand style={{color: '#fff', background: 'url(' + this.props.imgmyUrl + ') center / cover', maxwidth: '100%',maxheight: '100%',}}></CardTitle>
+            <CardTitle expand style={{color: '#fff', background: 'url(' + this.props.imgmyUrl + ') center / cover', backgroundSize: '110% ', maxwidth: '100%',maxheight: '100%',}}></CardTitle>
             <CardText>
                 {this.props.certTitle}
             </CardText>
