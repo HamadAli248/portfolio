@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "11eb7ad15c5d6a517c9809e8ec3ec44b",
+    "revision": "a20bec9d76705bf600e78eb96974d49a",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "abfce455054845424f0b",
+    "revision": "eb4832b4482726813acd",
     "url": "/portfolio/static/css/2.e4346227.chunk.css"
   },
   {
-    "revision": "284335a94c7f50aca532",
+    "revision": "871d39da26c849dd9d6e",
     "url": "/portfolio/static/css/main.25ecc1b3.chunk.css"
   },
   {
-    "revision": "abfce455054845424f0b",
-    "url": "/portfolio/static/js/2.bccf36fb.chunk.js"
+    "revision": "eb4832b4482726813acd",
+    "url": "/portfolio/static/js/2.1b1a8045.chunk.js"
   },
   {
-    "revision": "284335a94c7f50aca532",
-    "url": "/portfolio/static/js/main.46eb90d3.chunk.js"
+    "revision": "871d39da26c849dd9d6e",
+    "url": "/portfolio/static/js/main.442655db.chunk.js"
   },
   {
     "revision": "063006be7bb8ee6e2e88",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "3a8ad87b287b39bfee5eb84bd09c97c5",
     "url": "/portfolio/static/media/AWS Certified Cloud Practitioner certificate.3a8ad87b.pdf"
+  },
+  {
+    "revision": "36d9202ef83baa96b7baa3ab8f900cd0",
+    "url": "/portfolio/static/media/BCSLOGO.36d9202e.jpg"
   },
   {
     "revision": "78c52c0ab13c4ccf820319d221609ba8",
@@ -66,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "77c49338f87054c630655d41b46952f0",
     "url": "/portfolio/static/media/MicrosoftExam480.77c49338.png"
+  },
+  {
+    "revision": "464c92ce8d79242498348f28bd4a7236",
+    "url": "/portfolio/static/media/bcs-methodologies.464c92ce.pdf"
   },
   {
     "revision": "327c75fafe8306aa00ea7b7bb87cd332",
