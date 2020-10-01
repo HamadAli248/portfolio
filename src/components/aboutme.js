@@ -7,7 +7,6 @@ import {Certification} from './certifications'
 class About extends Component {
     render() {
         return(
-
             // About me page 
             <div id="aboutMePage">
                 <Grid>
