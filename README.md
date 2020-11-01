@@ -26,6 +26,8 @@ You will also see any lint errors in the console.
 
 ## Deploy
 
+Once merged to master it will trigger github actions to deploy but for manual deployment follow the step below: 
+
 ### `npm run deploy`
 
 Start the publishing process. When completed check the [website](https://hamadali248.github.io/portfolio/) 
