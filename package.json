@@ -21,11 +21,9 @@
     "eject": "react-scripts eject",
     "precommit": "lint-staged"
   },
-  "lint-staged":{
-    "src/**/*.{js,jsx,json,css,md}":[
-      "prettier --write",
-      "git add"
-    ]
+  "lint-staged": {
+    "*.js": "eslint --cache --fix",
+    "*.{js,css,md}": "prettier --write"
   },
   "eslintConfig": {
     "extends": "react-app"
