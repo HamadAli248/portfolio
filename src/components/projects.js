@@ -1,17 +1,17 @@
-import React from 'react';
-import { AllProjects } from './projectLanuages/AllProjects';
-import { ReactProjects } from './projectLanuages/ReactProjects';
-import { VanillaJavaScript } from './projectLanuages/VanillaJavaScript';
-import { BasicChallenges } from './projectLanuages/BasicChallenges';
-import {JavaProjects } from './projectLanuages/JavaProjects';
-import { MongoDb } from './projectLanuages/MongoDB';
-import PropTypes from 'prop-types';
-import { makeStyles } from '@material-ui/core/styles';
-import AppBar from '@material-ui/core/AppBar';
-import Tabs from '@material-ui/core/Tabs';
-import Tab from '@material-ui/core/Tab';
-import Typography from '@material-ui/core/Typography';
-import Box from '@material-ui/core/Box';
+import React from "react";
+import { AllProjects } from "./projectLanuages/AllProjects";
+import { ReactProjects } from "./projectLanuages/ReactProjects";
+import { VanillaJavaScript } from "./projectLanuages/VanillaJavaScript";
+import { BasicChallenges } from "./projectLanuages/BasicChallenges";
+import { JavaProjects } from "./projectLanuages/JavaProjects";
+import { MongoDb } from "./projectLanuages/MongoDB";
+import PropTypes from "prop-types";
+import { makeStyles } from "@material-ui/core/styles";
+import AppBar from "@material-ui/core/AppBar";
+import Tabs from "@material-ui/core/Tabs";
+import Tab from "@material-ui/core/Tab";
+import Typography from "@material-ui/core/Typography";
+import Box from "@material-ui/core/Box";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
@@ -42,14 +42,14 @@ TabPanel.propTypes = {
 function a11yProps(index) {
   return {
     id: `scrollable-auto-tab-${index}`,
-    'aria-controls': `scrollable-auto-tabpanel-${index}`,
+    "aria-controls": `scrollable-auto-tabpanel-${index}`,
   };
 }
 
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    width: '100%',
+    width: "100%",
     backgroundColor: theme.palette.background.paper,
   },
 }));
@@ -64,48 +64,43 @@ export default function ScrollableTabsButtonAuto() {
 
   return (
     <div className={classes.root}>
-      
-      <AppBar position="auto" color="default"> 
-      <div id="mobile-tabs">
-        <Tabs
-          value={value}
-          onChange={handleChange}
-          indicatorColor="primary"
-          textColor="primary"
-          variant="scrollable"
-          scrollButtons="auto"
-          aria-label="scrollable auto tabs example"
-        >
-         
-          <Tab label="All Projects" {...a11yProps(0)} />
-          <Tab label="Java" {...a11yProps(1)} />
-          <Tab label="React" {...a11yProps(2)} />
-          <Tab label="MongoDB" {...a11yProps(3)} />
-          <Tab label="Vanilla Javascript" {...a11yProps(4)} />
-          <Tab label="Basic Challenges" {...a11yProps(5)} /> 
-          
-        </Tabs>
-       </div>
+      <AppBar position="auto" color="default">
+        <div id="mobile-tabs">
+          <Tabs
+            value={value}
+            onChange={handleChange}
+            indicatorColor="primary"
+            textColor="primary"
+            variant="scrollable"
+            scrollButtons="auto"
+            aria-label="scrollable auto tabs example"
+          >
+            <Tab label="All Projects" {...a11yProps(0)} />
+            <Tab label="Java" {...a11yProps(1)} />
+            <Tab label="React" {...a11yProps(2)} />
+            <Tab label="MongoDB" {...a11yProps(3)} />
+            <Tab label="Vanilla Javascript" {...a11yProps(4)} />
+            <Tab label="Basic Challenges" {...a11yProps(5)} />
+          </Tabs>
+        </div>
       </AppBar>
       <TabPanel value={value} index={0}>
-      <AllProjects/>
+        <AllProjects />
       </TabPanel>
       <TabPanel value={value} index={1}>
-         <JavaProjects/>
+        <JavaProjects />
       </TabPanel>
       <TabPanel value={value} index={2}>
-          <ReactProjects />
-         
+        <ReactProjects />
       </TabPanel>
       <TabPanel value={value} index={3}>
-          <MongoDb/>
-        
+        <MongoDb />
       </TabPanel>
       <TabPanel value={value} index={4}>
-          <VanillaJavaScript />
+        <VanillaJavaScript />
       </TabPanel>
       <TabPanel value={value} index={5}>
-      <BasicChallenges />     
+        <BasicChallenges />
       </TabPanel>
     </div>
   );
