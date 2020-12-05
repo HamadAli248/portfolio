@@ -1,10 +1,10 @@
 import React from "react";
-import { AllProjects } from "./projectLanuages/AllProjects";
-import { ReactProjects } from "./projectLanuages/ReactProjects";
-import { VanillaJavaScript } from "./projectLanuages/VanillaJavaScript";
-import { BasicChallenges } from "./projectLanuages/BasicChallenges";
-import { JavaProjects } from "./projectLanuages/JavaProjects";
-import { MongoDb } from "./projectLanuages/MongoDB";
+import { AllProjects } from "./projectLanguages/AllProjects";
+import { ReactProjects } from "./projectLanguages/ReactProjects";
+import { VanillaJavaScript } from "./projectLanguages/VanillaJavaScript";
+import { BasicChallenges } from "./projectLanguages/BasicChallenges";
+import { JavaProjects } from "./projectLanguages/JavaProjects";
+import { MongoDb } from "./projectLanguages/MongoDB";
 import PropTypes from "prop-types";
 import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
@@ -16,7 +16,6 @@ import styles from "../components/Projects.module.css";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;
-
   return (
     <div
       role="tabpanel"

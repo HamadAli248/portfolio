@@ -4,7 +4,6 @@ import AboutMe from "./AboutMe";
 import Project from "./Projects";
 
 const Main = () => (
-  // main to add all the rouding to different paths from the URL
   <Switch>
     <Route exact path="/" component={AboutMe} />
     <Route exact path="/portfolio" component={AboutMe} />
@@ -12,5 +11,4 @@ const Main = () => (
     <Route path="/projects" component={Project} />
   </Switch>
 );
-
 export default Main;

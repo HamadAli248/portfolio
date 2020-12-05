@@ -8,15 +8,9 @@ import styles from "../components/AboutMe.module.css";
 class About extends Component {
   render() {
     return (
-      // About me page
       <div className={styles.aboutMePage}>
         <Grid>
-          {/* splitting the page into 2 sections(will be in grid so it splits into 4:8) */}
-
           <Cell className={styles.mdlCell} col={4}>
-            {/* content of left side of the page */}
-
-            {/* Picture,Name and JobTitle */}
             <div className={styles.avatarImg} style={{ textAlign: "center" }}>
               <img
                 src={Profile}
@@ -26,9 +20,7 @@ class About extends Component {
             </div>
             <h2 style={{ paddingTop: "0.1em", color: "white" }}>Hamad Ali</h2>
             <h4 style={{ color: "grey" }}> Junior Software Engineer</h4>
-            {/* Links for Socail Media */}
             <div className={styles.socialLinks}>
-              {/*Linkin*/}
               <a
                 href="https://www.linkedin.com/in/hamad-ali-5069b518a/"
                 rel="noopener noreferrer"
@@ -36,7 +28,6 @@ class About extends Component {
               >
                 <i className="fa fa-linkedin-square" aria-hidden="true" />
               </a>
-              {/*Github*/}
               <a
                 href="https://github.com/HamadAli248"
                 rel="noopener noreferrer"
@@ -44,7 +35,6 @@ class About extends Component {
               >
                 <i className="fa fa-github-square" aria-hidden="true" />
               </a>
-              {/*instagram*/}
               <a
                 href="https://www.instagram.com/hamad_4li/"
                 rel="noopener noreferrer"
@@ -52,18 +42,13 @@ class About extends Component {
               >
                 <i className="fa fa-instagram" aria-hidden="true" />
               </a>
-              {/*Email*/}
               <a href="mailto:hammadali248@gmail.com">
                 <i className="fa fa-envelope" aria-hidden="true" />
               </a>
-              {/*Phonel*/}
               <a href="tel:00447424983269">
                 <i className="fa fa-phone-square" aria-hidden="true" />
               </a>
             </div>
-
-            {/* Botom left of page of all the skills and {percentage of knowledge} code writen in skills.js file */}
-
             <div className={styles.skillDiv}>
               <h2 style={{ color: "white" }}>Skills</h2>
               <div className={styles.skillsDiv}>
@@ -92,11 +77,7 @@ class About extends Component {
               </div>
             </div>
           </Cell>
-
-          {/* content of right side of the page */}
           <Cell className={styles.aboutMeRightCol} col={8}>
-            {/* About me section top right */}
-
             <div className={styles.aboutMeDiv}>
               <h2>About Me</h2>
               <p>
@@ -121,9 +102,6 @@ class About extends Component {
             </div>
 
             <hr style={{ borderTop: "3px solid #e22947" }} />
-
-            {/* Bottom right with all the Certifications */}
-
             <h2>Certifications</h2>
             <Certification />
           </Cell>
