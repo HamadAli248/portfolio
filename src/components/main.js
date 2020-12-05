@@ -1,8 +1,8 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import AboutMe from "./aboutme";
+import AboutMe from "./AboutMe";
 import Project from "./Projects";
-import Blogs from "./blogs";
+import Blogs from "./Blogs";
 
 const Main = () => (
   // main to add all the rouding to different paths from the URL
