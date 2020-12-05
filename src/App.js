@@ -4,7 +4,7 @@ import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import Main from "./components/main";
 import { Link } from "react-router-dom";
 import CV from "./HamadAliCV.pdf";
-import AboutMe from "./components/AboutMe";
+import AboutMe from "./components/AboutMe.js";
 
 function App() {
   return (
