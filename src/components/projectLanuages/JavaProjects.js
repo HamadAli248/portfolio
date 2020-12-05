@@ -1,13 +1,15 @@
 import React from "react";
-import ProjectCard from "./projectCard";
+import ProjectCard from "./ProjectCard";
 import urlCalculator from "../images/challangesLogo/urlCalculator.png";
 import urlBrickbreaker from "../images/challangesLogo/brick-breaker.png";
 import Booking from "../images/challangesLogo/booking.jpeg";
 import urlChatbox from "../images/challangesLogo/urlChatbox.png";
 import urlTDD from "../images/challangesLogo/urlTDD.png";
 import urlDataBase from "../images/challangesLogo/urlDataBase.jpg";
+import styles from "./Common.module.css";
+
 export const JavaProjects = () => (
-  <div className="project-grid" id="project-grid-JavaProjects">
+  <div className={styles.projectGrid}>
     <ProjectCard
       imgmyUrl={Booking}
       cardText="Goup project of building Room Booking System application with Spring Boot and PostgreSQL database"

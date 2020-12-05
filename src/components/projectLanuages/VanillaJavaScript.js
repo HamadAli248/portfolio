@@ -1,12 +1,13 @@
 import React from "react";
-import ProjectCard from "./projectCard";
+import ProjectCard from "./ProjectCard";
 import urlcalculator from "../images/challangesLogo/urlCalculator.png";
 import urlDice from "../images/challangesLogo/urlDice.jpg";
 import urlPortfolio from "../images/challangesLogo/urlPortfolio.jpg";
 import urlKeyCode from "../images/challangesLogo/urlKeyCode.png";
+import styles from "./Common.module.css";
 
 export const VanillaJavaScript = () => (
-  <div className="project-grid" id="project-grid-VanillaJavaScript">
+  <div className={styles.projectGrid}>
     <ProjectCard
       imgmyUrl={urlDice}
       cardText="First ever project built in Vanilla javascript, building a one and two player dice game."

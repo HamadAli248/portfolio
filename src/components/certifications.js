@@ -1,5 +1,5 @@
 import React from "react";
-import CertificationCard from "./certificationcard";
+import CertificationCard from "./CertificationCard";
 import sololearn from "./images/certificationsLogo/sololearn.jpg";
 import FreeCodeCamp from "./images/certificationsLogo/FreeCodeCamp.png";
 import MicrosoftExam480 from "./images/certificationsLogo/MicrosoftExam480.png";
@@ -11,9 +11,10 @@ import FundamentalsComputerHacking from "./images/certifications/fundamentals-of
 import GitForBeginners from "./images/certifications/git-for-beginners.pdf";
 import BCS from "./images/certificationsLogo/BCSLOGO.jpg";
 import BCSCERT from "./images/certifications/bcs-methodologies.pdf";
+import styles from "../components/Certifications.module.css";
 
 export const Certification = () => (
-  <div id="Certification-grid">
+  <div className={styles.certificationGrid}>
     <CertificationCard
       imgmyUrl={AWS}
       certTitle="AWS Certified Cloud Practitioner"

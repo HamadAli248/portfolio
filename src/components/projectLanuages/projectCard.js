@@ -1,9 +1,8 @@
 import React, { Component } from "react";
 import { Card, CardText, CardTitle, CardActions, Button } from "react-mdl";
+import styles from "./ProjectCard.module.css";
 
 class ProjectCard extends Component {
-  //code for project cards  used in project.js file
-
   render(props) {
     return (
       <Card
@@ -27,12 +26,12 @@ class ProjectCard extends Component {
             maxheight: "100%",
           }}
         />
-        <CardText id="cardtext">{this.props.cardText}</CardText>
+        <CardText className={styles.cardText}>{this.props.cardText}</CardText>
         <CardActions id="buttontab" border>
-          <a id="button" href={this.props.GithubbuttonText}>
+          <a className={styles.button} href={this.props.GithubbuttonText}>
             <Button colored>Git Hub Code</Button>{" "}
           </a>
-          <a id="button" href={this.props.livebuttonText}>
+          <a className={styles.button} href={this.props.livebuttonText}>
             <Button colored>{this.props.livebuttondisplay}</Button>{" "}
           </a>
         </CardActions>

@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectCard from "./projectCard";
+import ProjectCard from "./ProjectCard";
 import urlChallenge from "../images/challangesLogo/urlChallenge.png";
 import urlCashMachine from "../images/challangesLogo/urlCashMachine.png";
 import urlTicketMacine from "../images/challangesLogo/urlTicketMacine.png";
@@ -8,9 +8,10 @@ import urlDom from "../images/challangesLogo/urlDom.png";
 import urlJavalogo from "../images/challangesLogo/urlJavalogo.png";
 import urlDataBase from "../images/challangesLogo/urlDataBase.jpg";
 import urlTDD from "../images/challangesLogo/urlTDD.png";
+import styles from "./Common.module.css";
 
 export const BasicChallenges = () => (
-  <div className="project-grid" id="project-grid-BasicChallenges">
+  <div className={styles.projectGrid} id="project-grid-BasicChallenges">
     <ProjectCard
       imgmyUrl={urlDataBase}
       cardText="Learning Databases and sending,requesting data from java to postgreSQL "

@@ -1,16 +1,16 @@
 import React from "react";
 import "./App.css";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
-import Main from "./components/main";
+import Main from "./components/Main";
 import { Link } from "react-router-dom";
 import CV from "./HamadAliCV.pdf";
-import landingPage from "./components/aboutme";
+import AboutMe from "./components/AboutMe";
 
 function App() {
   return (
     // main page (getting the home page) and links to other pages
     <div className="demo-big-content">
-      {landingPage}
+      {AboutMe}
       <Layout>
         <Header
           className="header-color"
@@ -27,7 +27,6 @@ function App() {
           <Navigation>
             <Link to="/aboutme">About Me</Link>
             <Link to="/projects">Projects</Link>
-            {/* <Link to="/blogs">Blogs</Link> */}
             <Link to={CV} target="_blank">
               Resume
             </Link>
@@ -46,7 +45,6 @@ function App() {
           <Navigation>
             <Link to="/aboutme">About Me</Link>
             <Link to="/projects">Projects</Link>
-            {/* <Link to="/blogs">Blogs</Link> */}
             <Link to={CV} target="_blank">
               Resume
             </Link>
