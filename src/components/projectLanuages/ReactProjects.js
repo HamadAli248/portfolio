@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectCard from "./projectCard";
+import ProjectCard from "./ProjectCard";
 import urlinsta from "../images/challangesLogo/urlinsta.png";
 import urlTetris from "../images/challangesLogo/urlTetris.png";
 import urlCodeEditor from "../images/challangesLogo/urlCodeEditor.webp";

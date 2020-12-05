@@ -1,7 +1,7 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 import AboutMe from "./aboutme";
-import Project from "./projects";
+import Project from "./Projects";
 import Blogs from "./blogs";
 
 const Main = () => (

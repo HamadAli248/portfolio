@@ -1,5 +1,5 @@
 import React from "react";
-import CertificationCard from "./certificationcard";
+import CertificationCard from "./CertificationCard";
 import sololearn from "./images/certificationsLogo/sololearn.jpg";
 import FreeCodeCamp from "./images/certificationsLogo/FreeCodeCamp.png";
 import MicrosoftExam480 from "./images/certificationsLogo/MicrosoftExam480.png";

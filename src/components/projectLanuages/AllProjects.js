@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectCard from "./projectCard";
+import ProjectCard from "./ProjectCard";
 import urlMongoDB from "../images/challangesLogo/urlMongoDB.png";
 import urlWeather from "../images/challangesLogo/urlWeather.png";
 import urlCalculator from "../images/challangesLogo/urlCalculator.png";
