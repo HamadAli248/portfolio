@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import { Card, CardText, CardTitle, CardActions, Button } from "react-mdl";
 
 class CertificationCard extends Component {
-  //code for project cards  used in project.js file
-
   render(props) {
     return (
       <Card
@@ -19,7 +17,7 @@ class CertificationCard extends Component {
           expand
           style={{
             color: "#fff",
-            background: "url(" + this.props.imgmyUrl + ") center / cover",
+            background: "url(" + this.props.img + ") center / cover",
             backgroundSize: "110% ",
             maxwidth: "100%",
             maxheight: "100%",
@@ -35,5 +33,4 @@ class CertificationCard extends Component {
     );
   }
 }
-
 export default CertificationCard;

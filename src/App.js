@@ -8,7 +8,6 @@ import AboutMe from "./components/AboutMe.js";
 
 function App() {
   return (
-    // main page (getting the home page) and links to other pages
     <div className="demo-big-content">
       {AboutMe}
       <Layout>
@@ -58,5 +57,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
