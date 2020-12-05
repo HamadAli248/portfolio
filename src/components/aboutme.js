@@ -3,20 +3,21 @@ import { Grid, Cell } from "react-mdl";
 import Profile from "./images/GBuster.jpg";
 import Skills from "./Skills";
 import { Certification } from "./Certifications";
+import styles from "../components/AboutMe.module.css";
 
 class About extends Component {
   render() {
     return (
       // About me page
-      <div id="aboutMePage">
+      <div className={styles.aboutMePage}>
         <Grid>
           {/* splitting the page into 2 sections(will be in grid so it splits into 4:8) */}
 
-          <Cell col={4}>
+          <Cell className={styles.mdlCell} col={4}>
             {/* content of left side of the page */}
 
             {/* Picture,Name and JobTitle */}
-            <div className="avatar-img" style={{ textAlign: "center" }}>
+            <div className={styles.avatarImg} style={{ textAlign: "center" }}>
               <img
                 src={Profile}
                 alt="profile pic"
@@ -26,7 +27,7 @@ class About extends Component {
             <h2 style={{ paddingTop: "0.1em", color: "white" }}>Hamad Ali</h2>
             <h4 style={{ color: "grey" }}> Junior Software Engineer</h4>
             {/* Links for Socail Media */}
-            <div className="social-links">
+            <div className={styles.socialLinks}>
               {/*Linkin*/}
               <a
                 href="https://www.linkedin.com/in/hamad-ali-5069b518a/"
@@ -63,28 +64,40 @@ class About extends Component {
 
             {/* Botom left of page of all the skills and {percentage of knowledge} code writen in skills.js file */}
 
-            <div id="skills-div">
+            <div className={styles.skillDiv}>
               <h2 style={{ color: "white" }}>Skills</h2>
-              <div id="skill-div">
-                <Skills className="skill" skill="JAVA" progress={30} />
-                <Skills className="skill" skill="Spring Boot" progress={30} />
-                <Skills className="skill" skill="TDD" progress={20} />
-                <Skills className="skill" skill="JavaScript" progress={55} />
-                <Skills className="skill" skill="React" progress={45} />
-                <Skills className="skill" skill="AWS" progress={10} />
-                <Skills className="skill" skill="PostgreSQL" progress={20} />
-                <Skills className="skill" skill="NodeJS" progress={15} />
-                <Skills className="skill" skill="HTML" progress={80} />
-                <Skills className="skill" skill="CSS" progress={80} />
+              <div className={styles.skillsDiv}>
+                <Skills className={styles.skill} skill="JAVA" progress={30} />
+                <Skills
+                  className={styles.skill}
+                  skill="Spring Boot"
+                  progress={30}
+                />
+                <Skills className={styles.skill} skill="TDD" progress={20} />
+                <Skills
+                  className={styles.skill}
+                  skill="JavaScript"
+                  progress={55}
+                />
+                <Skills className={styles.skill} skill="React" progress={45} />
+                <Skills className={styles.skill} skill="AWS" progress={10} />
+                <Skills
+                  className={styles.skill}
+                  skill="PostgreSQL"
+                  progress={20}
+                />
+                <Skills className={styles.skill} skill="NodeJS" progress={15} />
+                <Skills className={styles.skill} skill="HTML" progress={80} />
+                <Skills className={styles.skill} skill="CSS" progress={80} />
               </div>
             </div>
           </Cell>
 
           {/* content of right side of the page */}
-          <Cell className="aboutme-right-col" col={8}>
+          <Cell className={styles.aboutMeRightCol} col={8}>
             {/* About me section top right */}
 
-            <div id="aboutme-div">
+            <div className={styles.aboutMeDiv}>
               <h2>About Me</h2>
               <p>
                 Currently I am on a 15 months Apprenticeship at{" "}

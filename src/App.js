@@ -27,7 +27,6 @@ function App() {
           <Navigation>
             <Link to="/aboutme">About Me</Link>
             <Link to="/projects">Projects</Link>
-            {/* <Link to="/blogs">Blogs</Link> */}
             <Link to={CV} target="_blank">
               Resume
             </Link>
@@ -46,7 +45,6 @@ function App() {
           <Navigation>
             <Link to="/aboutme">About Me</Link>
             <Link to="/projects">Projects</Link>
-            {/* <Link to="/blogs">Blogs</Link> */}
             <Link to={CV} target="_blank">
               Resume
             </Link>

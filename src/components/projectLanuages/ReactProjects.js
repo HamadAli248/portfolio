@@ -5,9 +5,10 @@ import urlTetris from "../images/challangesLogo/urlTetris.png";
 import urlCodeEditor from "../images/challangesLogo/urlCodeEditor.webp";
 import urlBlog from "../images/challangesLogo/urlBlog.png";
 import urlApi from "../images/challangesLogo/urlApi.png";
+import styles from "./Common.module.css";
 
 export const ReactProjects = () => (
-  <div className="project-grid" id="project-grid-ReactProjects">
+  <div className={styles.projectGrid}>
     <ProjectCard
       imgmyUrl={urlTetris}
       cardText="Tetris Game"

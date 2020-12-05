@@ -1,0 +1,116 @@
+/* ============================================================================================= */
+/* Styling for mobile max-width: 479px */
+/* ============================================================================================= */
+@media all and (max-width: 479px) {
+  .aboutMePage {
+    background-color: #2e2c2b;
+  }
+  .avatarImg {
+    padding-top: 2em;
+  }
+  .socialLinks {
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+  }
+  .socialLinks i {
+    color: white;
+    font-size: 3em;
+  }
+  .skillsDiv {
+    height: 200px;
+    overflow-y: scroll;
+  }
+  .aboutMeRightCol {
+    color: white;
+  }
+}
+
+/* ============================================================================================= */
+/* MEDIA QUERY for mode between mobile and Tablet min-width:  max-width: 1024 */
+/* ============================================================================================= */
+
+@media (min-width: 480px) and (max-width: 1024px) {
+  /* General Layout */
+
+  .mdlCell {
+    width: 100% !important;
+  }
+  .aboutMePage {
+    background-color: #2e2c2b;
+  }
+  .avatarImg {
+    padding-top: 2em;
+  }
+  .socialLinks {
+    display: flex;
+    justify-content: space-between;
+    min-width: 100%;
+  }
+  .socialLinks i {
+    color: white;
+    font-size: 3em;
+  }
+  .skillsDiv {
+    height: 200px;
+    overflow-y: scroll;
+  }
+  .aboutMeRightCol {
+    color: white;
+  }
+}
+
+/* ============================================================================================= */
+/* MEDIA QUERY for Specail case */
+/* ============================================================================================= */
+@media (max-width: 1300px) and (min-width: 1025px) {
+  .socialLinks i {
+    font-size: 3em !important;
+  }
+}
+@media (max-width: 1024px) {
+  #mobile-tabs {
+    margin-left: 4em;
+  }
+}
+
+/* ============================================================================================= */
+/* MEDIA QUERY for laptop min-width:1025px */
+/* ============================================================================================= */
+
+@media all and (min-width: 1025px) {
+  /* General Layout */
+
+  .header-color {
+    background: #833ab4; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  }
+  /* ============================================================================================= */
+  /* landing Page */
+
+  .socialLinks {
+    display: flex;
+    justify-content: space-between;
+  }
+  .socialLinks i {
+    color: white;
+    font-size: 5em;
+    padding: 8px;
+  }
+  .aboutMePage {
+    background-color: #2e2c2b;
+  }
+  .aboutMeRightCol {
+    background: #27221f;
+    color: white;
+    padding: 1em;
+  }
+  .skill {
+    color: white;
+  }
+  .skillsDiv {
+    height: 286px;
+    overflow-y: scroll;
+  }
+}
