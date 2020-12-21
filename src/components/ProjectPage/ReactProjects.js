@@ -1,10 +1,10 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import Instagram from "../images/challengesLogo/Instagram.png";
-import Tetris from "../images/challengesLogo/Tetris.png";
-import CodeEditor from "../images/challengesLogo/CodeEditor.webp";
-import Blog from "../images/challengesLogo/Blog.png";
-import Api from "../images/challengesLogo/Api.png";
+import Instagram from "../../images/challengesLogo/Instagram.png";
+import Tetris from "../../images/challengesLogo/Tetris.png";
+import CodeEditor from "../../images/challengesLogo/CodeEditor.webp";
+import Blog from "../../images/challengesLogo/Blog.png";
+import Api from "../../images/challengesLogo/Api.png";
 import styles from "./Common.module.css";
 
 export const ReactProjects = () => (

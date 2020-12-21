@@ -1,10 +1,10 @@
 import React from "react";
-import { AllProjects } from "./projectLanguages/AllProjects";
-import { ReactProjects } from "./projectLanguages/ReactProjects";
-import { VanillaJavaScript } from "./projectLanguages/VanillaJavaScript";
-import { BasicChallenges } from "./projectLanguages/BasicChallenges";
-import { JavaProjects } from "./projectLanguages/JavaProjects";
-import { MongoDb } from "./projectLanguages/MongoDB";
+import { AllProjects } from "../components/ProjectPage/AllProjects";
+import { ReactProjects } from "../components/ProjectPage/ReactProjects";
+import { VanillaJavaScript } from "../components/ProjectPage/VanillaJavaScript";
+import { BasicChallenges } from "../components/ProjectPage/BasicChallenges";
+import { JavaProjects } from "../components/ProjectPage/JavaProjects";
+import { MongoDb } from "../components/ProjectPage/MongoDB";
 import PropTypes from "prop-types";
 import { makeStyles } from "@material-ui/core/styles";
 import AppBar from "@material-ui/core/AppBar";
@@ -12,7 +12,7 @@ import Tabs from "@material-ui/core/Tabs";
 import Tab from "@material-ui/core/Tab";
 import Typography from "@material-ui/core/Typography";
 import Box from "@material-ui/core/Box";
-import styles from "../components/Projects.module.css";
+import styles from "../components/ProjectPage/Projects.module.css";
 
 function TabPanel(props) {
   const { children, value, index, ...other } = props;

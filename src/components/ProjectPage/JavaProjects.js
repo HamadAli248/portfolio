@@ -1,11 +1,11 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import Calculator from "../images/challengesLogo/Calculator.png";
-import BrickBreaker from "../images/challengesLogo/brick-breaker.png";
-import Booking from "../images/challengesLogo/booking.jpeg";
-import ChatBox from "../images/challengesLogo/ChatBox.png";
-import TDD from "../images/challengesLogo/TDD.png";
-import DataBase from "../images/challengesLogo/DataBase.jpg";
+import Calculator from "../../images/challengesLogo/Calculator.png";
+import BrickBreaker from "../../images/challengesLogo/brick-breaker.png";
+import Booking from "../../images/challengesLogo/booking.jpeg";
+import ChatBox from "../../images/challengesLogo/ChatBox.png";
+import TDD from "../../images/challengesLogo/TDD.png";
+import DataBase from "../../images/challengesLogo/DataBase.jpg";
 import styles from "./Common.module.css";
 
 export const JavaProjects = () => (

@@ -3,8 +3,8 @@ import "./App.css";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import Main from "./components/Main";
 import { Link } from "react-router-dom";
-import CV from "./HamadAliCV.pdf";
-import AboutMe from "./components/AboutMe.js";
+import CV from "./Pages/HamadAliCV.pdf";
+import AboutMe from "./Pages/AboutMe.js";
 
 function App() {
   return (

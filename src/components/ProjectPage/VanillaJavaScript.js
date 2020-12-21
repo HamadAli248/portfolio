@@ -1,9 +1,9 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import Calculator from "../images/challengesLogo/Calculator.png";
-import Dice from "../images/challengesLogo/Dice.jpg";
-import Portfolio from "../images/challengesLogo/Portfolio.jpg";
-import KeyCode from "../images/challengesLogo/KeyCode.png";
+import Calculator from "../../images/challengesLogo/Calculator.png";
+import Dice from "../../images/challengesLogo/Dice.jpg";
+import Portfolio from "../../images/challengesLogo/Portfolio.jpg";
+import KeyCode from "../../images/challengesLogo/KeyCode.png";
 import styles from "./Common.module.css";
 
 export const VanillaJavaScript = () => (
