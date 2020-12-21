@@ -1,43 +1,47 @@
-import React, { Component } from "react";
-import { Card, CardText, CardTitle, CardActions, Button } from "react-mdl";
+import React from "react";
+import { makeStyles } from "@material-ui/core/styles";
+import Card from "@material-ui/core/Card";
+import CardActionArea from "@material-ui/core/CardActionArea";
+import CardActions from "@material-ui/core/CardActions";
+import CardContent from "@material-ui/core/CardContent";
+import CardMedia from "@material-ui/core/CardMedia";
+import Button from "@material-ui/core/Button";
+import Typography from "@material-ui/core/Typography";
 import styles from "./ProjectCard.module.css";
 
-class ProjectCard extends Component {
-  render(props) {
-    return (
-      <Card
-        className="project-grid-initial"
-        shadow={8}
-        style={{
-          maxWidth: "310px",
-          maxheight: "300px",
-          margin: "auto",
-          marginTop: "10px",
-          textAlign: "center",
-        }}
-      >
-        <CardTitle
-          style={{
-            color: "black",
-            height: "176px",
-            background: "url(" + this.props.img + ") center / cover",
-            backgroundSize: "100%",
-            maxwidth: "100%",
-            maxheight: "100%",
-          }}
-        />
-        <CardText className={styles.cardText}>{this.props.cardText}</CardText>
-        <CardActions id="buttontab" border>
-          <a className={styles.button} href={this.props.gitHubButtonText}>
-            <Button colored>Git Hub Code</Button>{" "}
-          </a>
-          <a className={styles.button} href={this.props.liveButtonText}>
-            <Button colored>{this.props.liveButtonDisplay}</Button>{" "}
-          </a>
-        </CardActions>
-      </Card>
-    );
-  }
-}
+const useStyles = makeStyles({
+  root: {
+    maxWidth: 345,
+  },
+});
 
-export default ProjectCard;
+export default function ProjectCard(props) {
+  const classes = useStyles();
+
+  return (
+    <Card className={classes.root}>
+      <CardActionArea>
+        <CardMedia
+          component="img"
+          alt="Contemplative Reptile"
+          height="140"
+          image={props.img}
+          title={props.certTitle}
+        />
+      </CardActionArea>
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="h2">
+          {props.cardText}
+        </Typography>
+      </CardContent>
+      <CardActions>
+        <a className={styles.button} href={props.gitHubButtonText}>
+          <Button colored>Git Hub Code</Button>{" "}
+        </a>
+        <a className={styles.button} href={props.liveButtonText}>
+          <Button colored>{props.liveButtonDisplay}</Button>{" "}
+        </a>
+      </CardActions>
+    </Card>
+  );
+}

@@ -4,7 +4,6 @@
 @media all and (max-width: 479px) {
   .skillsDiv {
     height: 200px;
-    overflow-y: scroll;
   }
 }
 
@@ -16,7 +15,6 @@
   /* General Layout */
   .skillsDiv {
     height: 200px;
-    overflow-y: scroll;
   }
 }
 
@@ -30,6 +28,5 @@
   }
   .skillsDiv {
     height: 286px;
-    overflow-y: scroll;
   }
 }
