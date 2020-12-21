@@ -1,13 +1,13 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import Challenge from "../images/challengesLogo/Challenge.png";
-import CashMachine from "../images/challengesLogo/CashMachine.png";
-import TicketMachine from "../images/challengesLogo/TicketMachine.png";
-import ZenGarden from "../images/challengesLogo/ZenGarden.png";
-import Dom from "../images/challengesLogo/Dom.png";
-import JavaLogo from "../images/challengesLogo/JavaLogo.png";
-import DataBase from "../images/challengesLogo/DataBase.jpg";
-import TDD from "../images/challengesLogo/TDD.png";
+import Challenge from "../../images/challengesLogo/Challenge.png";
+import CashMachine from "../../images/challengesLogo/CashMachine.png";
+import TicketMachine from "../../images/challengesLogo/TicketMachine.png";
+import ZenGarden from "../../images/challengesLogo/ZenGarden.png";
+import Dom from "../../images/challengesLogo/Dom.png";
+import JavaLogo from "../../images/challengesLogo/JavaLogo.png";
+import DataBase from "../../images/challengesLogo/DataBase.jpg";
+import TDD from "../../images/challengesLogo/TDD.png";
 import styles from "./Common.module.css";
 
 export const BasicChallenges = () => (

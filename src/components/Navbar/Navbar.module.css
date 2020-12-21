@@ -1,0 +1,7 @@
+@media all and (min-width: 1025px) {
+  .headerColor {
+    background: #833ab4; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  }
+}

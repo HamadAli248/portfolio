@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
-import MongoDB from "../images/challengesLogo/MongoDB.png";
-import Weather from "../images/challengesLogo/Weather.png";
+import MongoDB from "../../images/challengesLogo/MongoDB.png";
+import Weather from "../../images/challengesLogo/Weather.png";
 import styles from "./Common.module.css";
 
 export const MongoDb = () => (

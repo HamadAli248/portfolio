@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Grid, Cell, ProgressBar } from "react-mdl";
 
-class Skills extends Component {
+class SkillsBar extends Component {
   render() {
     return (
       <Grid>
@@ -18,4 +18,4 @@ class Skills extends Component {
     );
   }
 }
-export default Skills;
+export default SkillsBar;

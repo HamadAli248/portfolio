@@ -1,7 +1,7 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
-import AboutMe from "./AboutMe";
-import Project from "./Projects";
+import AboutMe from "../Pages/AboutMe";
+import Project from "../Pages/Projects";
 
 const Main = () => (
   <Switch>
