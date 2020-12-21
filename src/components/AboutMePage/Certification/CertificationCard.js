@@ -13,7 +13,6 @@ const useStyles = makeStyles({
     maxWidth: 345,
   },
 });
-
 export default function CertificationCard(props) {
   const classes = useStyles();
 
