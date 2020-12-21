@@ -10,10 +10,6 @@ In the project directory, you need to install the following:<br>
 
 Installs node Packages needed for the Application<br>
 
-### `npm install --save react-mdl`
-
-React-MDL is a set of React components build on top of Material Design Lite. To find out on how to use vist [React-MDL Github repository](https://github.com/tleunen/react-mdl) or [React-MDL website](https://tleunen.github.io/react-mdl/)<br>
-
 ## Running
 
 ### `npm start`
