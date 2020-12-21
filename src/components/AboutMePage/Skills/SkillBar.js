@@ -1,20 +1,33 @@
 import React, { Component } from "react";
-import { Grid, Cell, ProgressBar } from "react-mdl";
+import { withStyles } from "@material-ui/core/styles";
+import LinearProgress from "@material-ui/core/LinearProgress";
+
+const BorderLinearProgress = withStyles((theme) => ({
+  root: {
+    height: 10,
+    borderRadius: 5,
+  },
+  colorPrimary: {
+    backgroundColor:
+      theme.palette.grey[theme.palette.type === "light" ? 200 : 700],
+  },
+  bar: {
+    borderRadius: 5,
+    backgroundColor: "#1a90ff",
+  },
+}))(LinearProgress);
 
 class SkillsBar extends Component {
   render() {
     return (
-      <Grid>
-        <Cell col={12}>
-          <div style={{ display: "flex", color: "white" }}>
-            {this.props.skill}{" "}
-            <ProgressBar
-              style={{ margin: "auto", width: "75%" }}
-              progress={this.props.progress}
-            />
-          </div>
-        </Cell>
-      </Grid>
+      <div style={{ display: "flex", color: "white" }}>
+        {this.props.skill}{" "}
+        <BorderLinearProgress
+          style={{ margin: "auto", width: "75%" }}
+          variant="determinate"
+          value={this.props.progress}
+        />
+      </div>
     );
   }
 }
