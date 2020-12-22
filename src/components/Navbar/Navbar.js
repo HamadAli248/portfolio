@@ -54,13 +54,17 @@ export default function ButtonAppBar() {
               onClose={handleClose}
             >
               <MenuItem onClick={handleClose}>
-                <Link to="/aboutme">About Me</Link>
+                <Link className={styles.menuLinks} to="/aboutme">
+                  About Me
+                </Link>
               </MenuItem>
               <MenuItem onClick={handleClose}>
-                <Link to="/projects">Projects</Link>
+                <Link className={styles.menuLinks} to="/projects">
+                  Projects
+                </Link>
               </MenuItem>
               <MenuItem onClick={handleClose}>
-                <Link to={CV} target="_blank">
+                <Link className={styles.menuLinks} to={CV} target="_blank">
                   Resume
                 </Link>
               </MenuItem>
@@ -74,15 +78,19 @@ export default function ButtonAppBar() {
               Hamad Ali
             </Link>
           </Typography>
-          <div>
+          <div className={styles.navButtons}>
             <Button color="inherit">
-              <Link to="/aboutme">About Me</Link>
+              <Link className={styles.navlinks} to="/aboutme">
+                About Me
+              </Link>
             </Button>
             <Button color="inherit">
-              <Link to="/projects">Projects</Link>
+              <Link className={styles.navlinks} to="/projects">
+                Projects
+              </Link>
             </Button>
             <Button color="inherit">
-              <Link to={CV} target="_blank">
+              <Link className={styles.navlinks} to={CV} target="_blank">
                 Resume
               </Link>
             </Button>

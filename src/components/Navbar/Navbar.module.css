@@ -3,3 +3,23 @@
   background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
   background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
 }
+.navButtons {
+  display: none;
+}
+.menu {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.navlinks {
+  text-decoration: none;
+  color: white;
+}
+.menuLinks {
+  text-decoration: none;
+  color: black;
+}
+@media (min-width: 600px) {
+  .navButtons {
+    display: flex;
+  }
+}
