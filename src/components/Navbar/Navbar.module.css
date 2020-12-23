@@ -2,6 +2,7 @@
   background: #833ab4; /* fallback for old browsers */
   background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
   background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  margin-bottom: 0px;
 }
 .navButtons {
   display: none;
