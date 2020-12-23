@@ -54,6 +54,11 @@ export default function ButtonAppBar() {
               onClose={handleClose}
             >
               <MenuItem onClick={handleClose}>
+                <Link className={styles.menuLinks} to="/home">
+                  Home
+                </Link>
+              </MenuItem>
+              <MenuItem onClick={handleClose}>
                 <Link className={styles.menuLinks} to="/aboutme">
                   About Me
                 </Link>
@@ -79,6 +84,11 @@ export default function ButtonAppBar() {
             </Link>
           </Typography>
           <div className={styles.navButtons}>
+            <Button color="inherit">
+              <Link className={styles.navlinks} to="/home">
+                Home
+              </Link>
+            </Button>
             <Button color="inherit">
               <Link className={styles.navlinks} to="/aboutme">
                 About Me

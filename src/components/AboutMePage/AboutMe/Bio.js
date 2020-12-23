@@ -1,9 +1,13 @@
 import React, { Component } from "react";
+import Profile from "../../../images/GBuster.jpg";
 
 class Bio extends Component {
   render() {
     return (
       <div>
+        <div style={{ textAlign: "center" }}>
+          <img src={Profile} alt="profile pic" style={{ height: "300px" }} />
+        </div>
         <h2>About Me</h2>
         <p>
           Currently I am on a 15 months Apprenticeship at{" "}

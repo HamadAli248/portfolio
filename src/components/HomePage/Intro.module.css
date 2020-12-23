@@ -1,0 +1,61 @@
+.intro {
+  height: 100%;
+  background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+  overflow: auto;
+}
+
+h2,
+h1 {
+  color: white;
+  font-family: "lato", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  text-align: center;
+}
+.link {
+  text-decoration: none;
+  color: white;
+}
+.buttonDiv {
+  text-align: center;
+  align-items: center;
+}
+
+/* ============================================================================================= */
+/* Animations */
+/* ============================================================================================= */
+
+.wave {
+  animation-name: wave-animation;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+  transform-origin: 70% 70%;
+  display: inline-block;
+}
+
+@keyframes wave-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
