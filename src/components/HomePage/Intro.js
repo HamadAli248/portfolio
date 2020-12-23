@@ -7,20 +7,22 @@ class Intro extends Component {
   render() {
     return (
       <div className={styles.intro}>
-        <h1>
-          Hello!{" "}
-          <span role="img" aria-label="handWave" class={styles.wave}>
-            👋🏾
-          </span>
-        </h1>
-        <h2> I'm Hamad Ali.</h2>
-        <h2> I am a Junior Software Engineer </h2>
-        <div className={styles.buttonDiv}>
-          <Button variant="outlined" color="inherit" size="medium">
-            <Link className={styles.link} to="/aboutme">
-              About Me
-            </Link>
-          </Button>
+        <div className={styles.contentDiv}>
+          <h1>
+            Hello!{" "}
+            <span role="img" aria-label="handWave" class={styles.wave}>
+              👋🏾
+            </span>
+          </h1>
+          <h2> I'm Hamad Ali.</h2>
+          <h2> I am a Junior Software Engineer </h2>
+          <div className={styles.buttonDiv}>
+            <Button variant="outlined" color="inherit" size="medium">
+              <Link className={styles.link} to="/aboutme">
+                About Me
+              </Link>
+            </Button>
+          </div>
         </div>
       </div>
     );
