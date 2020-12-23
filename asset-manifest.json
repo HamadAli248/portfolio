@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.789c0593.chunk.css",
+    "main.css": "/portfolio/static/css/main.47387414.chunk.css",
     "main.js": "/portfolio/static/js/main.1df6d3f7.chunk.js",
     "main.js.map": "/portfolio/static/js/main.1df6d3f7.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.e9ec26ce.js",
@@ -8,9 +8,9 @@
     "static/js/2.1ced6cda.chunk.js": "/portfolio/static/js/2.1ced6cda.chunk.js",
     "static/js/2.1ced6cda.chunk.js.map": "/portfolio/static/js/2.1ced6cda.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.7823fc71c257d5fc805d7a43f7f04947.js": "/portfolio/precache-manifest.7823fc71c257d5fc805d7a43f7f04947.js",
+    "precache-manifest.b150a7dbd36715d25a96833a8ca5e472.js": "/portfolio/precache-manifest.b150a7dbd36715d25a96833a8ca5e472.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.789c0593.chunk.css.map": "/portfolio/static/css/main.789c0593.chunk.css.map",
+    "static/css/main.47387414.chunk.css.map": "/portfolio/static/css/main.47387414.chunk.css.map",
     "static/media/AWS Certified Cloud Practitioner certificate.pdf": "/portfolio/static/media/AWS Certified Cloud Practitioner certificate.3a8ad87b.pdf",
     "static/media/BCSLOGO.jpg": "/portfolio/static/media/BCSLOGO.36d9202e.jpg",
     "static/media/Blog.png": "/portfolio/static/media/Blog.53760031.png",
