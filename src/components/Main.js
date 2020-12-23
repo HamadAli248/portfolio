@@ -8,7 +8,7 @@ const Main = () => (
   <Switch>
     <Route exact path="/" component={HomePage} />
     <Route exact path="/home" component={HomePage} />
-    <Route exact path="/portfolio" component={AboutMe} />
+    <Route exact path="/portfolio" component={HomePage} />
     <Route path="/aboutme" component={AboutMe} />
     <Route path="/projects" component={Project} />
   </Switch>
