@@ -11,6 +11,13 @@ import Typography from "@material-ui/core/Typography";
 const useStyles = makeStyles({
   root: {
     maxWidth: 345,
+    marginTop: "20px",
+  },
+  title: {
+    color: "black",
+  },
+  button: {
+    margin: "0 auto",
   },
 });
 export default function CertificationCard(props) {
@@ -28,14 +35,20 @@ export default function CertificationCard(props) {
         />
       </CardActionArea>
       <CardContent>
-        <Typography gutterBottom variant="h5" component="h2">
+        <Typography
+          className={classes.title}
+          gutterBottom
+          variant="h5"
+          component="h2"
+        >
           {props.certTitle}
         </Typography>
       </CardContent>
       <CardActions>
-        <a id="button" href={props.certURL}>
-          <Button colored> View Certification</Button>
-        </a>
+        <Button className={classes.button} href={props.certURL} colored>
+          {" "}
+          View Certification
+        </Button>
       </CardActions>
     </Card>
   );
