@@ -10,7 +10,6 @@ class About extends Component {
       <div>
         <Bio />
         <Skills />
-        <hr style={{ borderTop: "3px solid #e22947" }} />
         <Certification />
         <SocialLinks />
       </div>

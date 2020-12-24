@@ -1,30 +1,33 @@
 import React, { Component } from "react";
 import Profile from "../../../images/GBuster.jpg";
+import styles from "./Bio.module.css";
 
 class Bio extends Component {
   render() {
     return (
-      <div>
-        <div style={{ textAlign: "center" }}>
-          <img src={Profile} alt="profile pic" style={{ height: "300px" }} />
+      <div className={styles.container}>
+        <div className={styles.item}>
+          <img
+            src={Profile}
+            alt="profile pic"
+            style={{
+              height: "300px",
+              borderRadius: "100%",
+              marginTop: "5%",
+              border: "7px solid #555",
+            }}
+          />
         </div>
-        <h2>About Me</h2>
-        <p>
-          Currently I am on a 15 months Apprenticeship at{" "}
-          <a href="https://www.dmwgroup.com/">DMW Group a Credera Company</a>
-          . Completed the first 12-week training at Code Nation, Manchester.
-          Learning Front-End development including HTML5, CSS3, JavaScript,
-          React, Back-End programming such as APIs, Node.JS, Mongo. DB, MySQL,
-          Express, iOS Swift programming and using the terminal and command
-          line,and using git hub. I've have also been learning Java and looking
-          into Databases(PostgreSQL),Spring Boot and finally AWS.
-          <br />
-          <br />I am a sporty person, I enjoy playing Cricket, Football and
-          going for a Run. I also enjoy watching Formula 1 and Boxing. Excited
-          by facing new challenges and learning something new.I am Adventurous
-          outgoing person who is career-driven and have the determination to
-          succeed!
-        </p>
+        <div className={styles.item}>
+          <p>
+            Currently I am on a 15 months Apprenticeship at{" "}
+            <a href="https://www.dmwgroup.com/">DMW Group a Credera Company</a>
+            <br />
+            Have a huge passion for Frontend development.
+            <br />
+            <a href="https://www.dmwgroup.com/">Lets Build something</a>
+          </p>
+        </div>
       </div>
     );
   }
