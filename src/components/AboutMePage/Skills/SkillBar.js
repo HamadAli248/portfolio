@@ -20,7 +20,7 @@ const BorderLinearProgress = withStyles((theme) => ({
 class SkillsBar extends Component {
   render() {
     return (
-      <div style={{ display: "flex", color: "white" }}>
+      <div style={{ display: "flex", color: "black" }}>
         {this.props.skill}{" "}
         <BorderLinearProgress
           style={{ margin: "auto", width: "75%" }}
