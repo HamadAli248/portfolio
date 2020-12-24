@@ -1,29 +1,21 @@
 import React, { Component } from "react";
-import { withStyles } from "@material-ui/core/styles";
 import LinearProgress from "@material-ui/core/LinearProgress";
-
-const BorderLinearProgress = withStyles((theme) => ({
-  root: {
-    height: 10,
-    borderRadius: 5,
-  },
-  colorPrimary: {
-    backgroundColor:
-      theme.palette.grey[theme.palette.type === "light" ? 200 : 700],
-  },
-  bar: {
-    borderRadius: 5,
-    backgroundColor: "#1a90ff",
-  },
-}))(LinearProgress);
+import styles from "./Skills.module.css";
 
 class SkillsBar extends Component {
   render() {
     return (
-      <div style={{ display: "flex", color: "black" }}>
-        {this.props.skill}{" "}
-        <BorderLinearProgress
-          style={{ margin: "auto", width: "75%" }}
+      <div style={{ display: "flex", color: "black", marginLeft: "1%" }}>
+        {this.props.skill}
+        <LinearProgress
+          className={styles.linearProgress}
+          style={{
+            height: "14px",
+            margin: "auto",
+            width: "70%",
+            borderRadius: "3px",
+            marginRight: "5px",
+          }}
           variant="determinate"
           value={this.props.progress}
         />
