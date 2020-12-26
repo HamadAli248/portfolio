@@ -10,7 +10,7 @@ class Intro extends Component {
         <div className={styles.contentDiv}>
           <h1>
             Hello!{" "}
-            <span role="img" aria-label="handWave" class={styles.wave}>
+            <span role="img" aria-label="handWave" className={styles.wave}>
               👋🏾
             </span>
           </h1>
