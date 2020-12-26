@@ -13,6 +13,9 @@ const useStyles = makeStyles({
   root: {
     maxWidth: 345,
   },
+  title: {
+    color: "black",
+  },
 });
 
 export default function ProjectCard(props) {
@@ -30,7 +33,12 @@ export default function ProjectCard(props) {
         />
       </CardActionArea>
       <CardContent>
-        <Typography gutterBottom variant="h5" component="h2">
+        <Typography
+          className={classes.title}
+          gutterBottom
+          variant="h5"
+          component="h2"
+        >
           {props.cardText}
         </Typography>
       </CardContent>
