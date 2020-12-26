@@ -73,6 +73,11 @@ export default function ButtonAppBar() {
                   Resume
                 </Link>
               </MenuItem>
+              <MenuItem onClick={handleClose}>
+                <Link className={styles.menuLinks} to="/contactme">
+                  Contact Me
+                </Link>
+              </MenuItem>
             </Menu>
           </IconButton>
           <Typography variant="h6" className={classes.title}>
@@ -102,6 +107,11 @@ export default function ButtonAppBar() {
             <Button color="inherit">
               <Link className={styles.navlinks} to={CV} target="_blank">
                 Resume
+              </Link>
+            </Button>
+            <Button color="inherit">
+              <Link className={styles.navlinks} to="/contactme">
+                Contact Me
               </Link>
             </Button>
           </div>

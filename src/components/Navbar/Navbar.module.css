@@ -19,7 +19,7 @@
   text-decoration: none;
   color: black;
 }
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .navButtons {
     display: flex;
   }
