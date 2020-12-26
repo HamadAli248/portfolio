@@ -26,12 +26,6 @@ class SocialLinks extends Component {
         >
           <i className="fa fa-instagram" aria-hidden="true" />
         </a>
-        <a href="mailto:hammadali248@gmail.com">
-          <i className="fa fa-envelope" aria-hidden="true" />
-        </a>
-        <a href="tel:00447424983269">
-          <i className="fa fa-phone-square" aria-hidden="true" />
-        </a>
       </div>
     );
   }

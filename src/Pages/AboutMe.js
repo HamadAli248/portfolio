@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { Certification } from "../components/AboutMePage/Certification/Certifications";
-import SocialLinks from "../components/AboutMePage/Socials/SocialLinks";
 import Skills from "../components/AboutMePage/Skills/SkillComponent";
 import Bio from "../components/AboutMePage/AboutMe/Bio";
 
@@ -11,7 +10,6 @@ class About extends Component {
         <Bio />
         <Skills />
         <Certification />
-        <SocialLinks />
       </div>
     );
   }
