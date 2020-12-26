@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Profile from "../../../images/GBuster.jpg";
 import styles from "./Bio.module.css";
+import { Link } from "react-router-dom";
 
 class Bio extends Component {
   render() {
@@ -25,7 +26,7 @@ class Bio extends Component {
             <br />
             Have a huge passion for Frontend development.
             <br />
-            <a href="https://www.dmwgroup.com/">Lets Build something</a>
+            <Link to="/contactme">Lets Build something</Link>
           </p>
         </div>
       </div>
