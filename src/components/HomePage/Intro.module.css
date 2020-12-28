@@ -66,6 +66,47 @@ h1 {
   transform-origin: 70% 70%;
   display: inline-block;
 }
+.btn {
+  background: none;
+  border: 1px solid white;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  animation: all 1s;
+  overflow: hidden;
+  border-radius: 10px;
+  font-weight: bold;
+  animation: cssAnimation 0s 6.5s forwards;
+  visibility: hidden;
+}
+.btn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(#7864f4, #3072d3);
+  width: 100%;
+  transition: all 0.3s;
+  z-index: -1;
+}
+.btn:hover {
+  color: white;
+}
+.btn::before {
+  transform: rotate(-90deg);
+  transform-origin: bottom left;
+  height: 100%;
+}
+.btn:hover::before {
+  transform: rotate(0);
+}
+@keyframes cssAnimation {
+  to {
+    visibility: visible;
+  }
+}
 
 @keyframes type {
   0% {
