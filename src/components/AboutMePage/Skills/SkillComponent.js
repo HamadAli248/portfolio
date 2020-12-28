@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import Skills from "./SkillBar";
+import styles from "./Skills.module.css";
 
 class SkillComponent extends Component {
   render() {
     return (
-      <div>
+      <div className={styles.skillsDiv}>
         <h2 style={{ color: "black", textAlign: "left" }}>Skills</h2>
         <div>
           <Skills skill="JAVA" progress={30} />

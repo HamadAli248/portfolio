@@ -6,3 +6,14 @@
   text-align: center;
   justify-content: space-around;
 }
+@media (max-width: 640px) {
+  .certificationDiv {
+    animation: cssAnimation 0s 3s forwards;
+    visibility: hidden;
+  }
+  @keyframes cssAnimation {
+    to {
+      visibility: visible;
+    }
+  }
+}

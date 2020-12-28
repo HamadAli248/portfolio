@@ -14,7 +14,7 @@ import BCSCert from "../../../images/certifications/bcs-methodologies.pdf";
 import styles from "./Certifications.module.css";
 
 export const Certification = () => (
-  <div>
+  <div className={styles.certificationDiv}>
     <h2 style={{ color: "black", textAlign: "left" }}>Certifications</h2>
     <div className={styles.certificationGrid}>
       <CertificationCard

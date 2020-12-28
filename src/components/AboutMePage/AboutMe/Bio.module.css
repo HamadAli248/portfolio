@@ -20,3 +20,48 @@ p {
   margin-top: 15%;
   min-width: 320px;
 }
+.item {
+  float: bottom;
+  animation-duration: 3s;
+  animation-name: slideInContent;
+}
+
+@keyframes slideInContent {
+  from {
+    margin-top: -100%;
+  }
+  to {
+    margin-bottom: 0%;
+  }
+}
+
+@media (min-width: 640px) {
+  #profileImage {
+    float: left;
+    animation-duration: 3s;
+    animation-name: slideInPicture;
+  }
+
+  @keyframes slideInPicture {
+    from {
+      margin-left: -30%;
+    }
+    to {
+      margin-left: 0%;
+    }
+  }
+  #bio {
+    float: right;
+    animation-duration: 3s;
+    animation-name: slideInBio;
+  }
+
+  @keyframes slideInBio {
+    from {
+      margin-right: -30%;
+    }
+    to {
+      margin-right: 0%;
+    }
+  }
+}

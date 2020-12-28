@@ -1,0 +1,11 @@
+@media (max-width: 640px) {
+  .skillsDiv {
+    animation: cssAnimation 0s 3s forwards;
+    visibility: hidden;
+  }
+  @keyframes cssAnimation {
+    to {
+      visibility: visible;
+    }
+  }
+}
