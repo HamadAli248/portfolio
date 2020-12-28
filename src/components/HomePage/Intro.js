@@ -14,8 +14,8 @@ class Intro extends Component {
               👋🏾
             </span>
           </h1>
-          <h2> I'm Hamad Ali.</h2>
-          <h2> I am a Junior Software Engineer </h2>
+          <h1> I'm Hamad Ali. </h1>
+          <h1> I am a Junior Software Engineer </h1>
           <div className={styles.buttonDiv}>
             <Button variant="outlined" color="inherit" size="medium">
               <Link className={styles.link} to="/aboutme">
