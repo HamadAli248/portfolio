@@ -18,7 +18,7 @@ class Intro extends Component {
           <div className={styles.buttonDiv}>
             <button className={styles.btn}>
               <Link className={styles.link} to="/aboutme">
-                About Me
+                View my Portfolio
               </Link>
             </button>
           </div>
