@@ -5,15 +5,21 @@ import styles from "./Skills.module.css";
 class SkillsBar extends Component {
   render() {
     return (
-      <div style={{ display: "flex", color: "black", marginLeft: "1%" }}>
+      <div
+        style={{
+          display: "flex",
+          color: "black",
+          marginLeft: "1%",
+          marginTop: "5px",
+        }}
+      >
         {this.props.skill}
         <LinearProgress
           className={styles.linearProgress}
           style={{
             height: "14px",
             margin: "auto",
-            width: "70%",
-            borderRadius: "3px",
+            width: "60%",
             marginRight: "5px",
           }}
           variant="determinate"
