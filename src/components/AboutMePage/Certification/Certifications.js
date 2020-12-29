@@ -15,7 +15,7 @@ import styles from "./Certifications.module.css";
 
 export const Certification = () => (
   <div className={styles.certificationDiv}>
-    <h2 style={{ color: "black", textAlign: "left" }}>Certifications</h2>
+    <h2 className={styles.divTitle}>Certifications</h2>
     <div className={styles.certificationGrid}>
       <CertificationCard
         img={AWS}
