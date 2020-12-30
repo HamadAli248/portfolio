@@ -1,8 +1,53 @@
 .certificationGrid {
-  height: 500px;
+  height: 800px;
   overflow-y: scroll;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
   justify-content: space-around;
+}
+.divTitle {
+  margin: 0 auto;
+  color: black;
+  font-family: "lato", sans-serif;
+  font-size: 45px;
+  font-weight: 30;
+}
+.cardDiv {
+  max-width: 345px;
+  margin-top: 20px;
+}
+.title {
+  color: black;
+  font-family: "lato", sans-serif;
+  font-weight: 10px;
+}
+.titleDiv {
+  min-height: 60px;
+  max-height: 70px;
+}
+.imageDiv {
+  min-height: 350px;
+}
+@media (max-width: 640px) {
+  .certificationDiv {
+    animation: cssAnimation 0s 3s forwards;
+    visibility: hidden;
+  }
+  @keyframes cssAnimation {
+    to {
+      visibility: visible;
+    }
+  }
+}
+@media (min-width: 768px) {
+  .cardDiv {
+    transition: transform 0.2s;
+  }
+  .cardDiv:hover {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+    z-index: 1;
+  }
 }

@@ -7,7 +7,7 @@ class Bio extends Component {
   render() {
     return (
       <div className={styles.container}>
-        <div className={styles.item}>
+        <div className={styles.item} id={styles.profileImage}>
           <img
             src={Profile}
             alt="profile pic"
@@ -19,12 +19,12 @@ class Bio extends Component {
             }}
           />
         </div>
-        <div className={styles.item}>
+        <div className={styles.item} id={styles.bio}>
           <p>
             Currently I am on a 15 months Apprenticeship at{" "}
             <a href="https://www.dmwgroup.com/">DMW Group a Credera Company</a>
             <br />
-            Have a huge passion for Frontend development.
+            I have a huge passion for Frontend development.
             <br />
             <Link to="/contactme">Lets Build something</Link>
           </p>
