@@ -11,6 +11,9 @@ class SkillsBar extends Component {
           color: "black",
           marginLeft: "1%",
           marginTop: "5px",
+          fontFamily: "lato",
+          fontSize: "25px",
+          fontWeight: "30",
         }}
       >
         {this.props.skill}

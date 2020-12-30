@@ -38,7 +38,7 @@ p {
 @media (min-width: 640px) {
   #profileImage {
     float: left;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-name: slideInPicture;
   }
 
@@ -52,7 +52,7 @@ p {
   }
   #bio {
     float: right;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-name: slideInBio;
   }
 

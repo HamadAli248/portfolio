@@ -1,5 +1,5 @@
 @media (max-width: 640px) {
-  .skillsDiv {
+  .item {
     animation: cssAnimation 0s 3s forwards;
     visibility: hidden;
   }
@@ -9,6 +9,27 @@
     }
   }
 }
-.skillsDiv {
-  min-height: 350px;
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+.container > div {
+  flex: 0 50%;
+}
+#skillsDiv {
+  min-width: 100%;
+}
+#experienceDiv {
+  min-width: 100%;
+}
+
+@media (min-width: 820px) {
+  #skillsDiv {
+    min-width: 50%;
+  }
+  #experienceDiv {
+    min-width: 50%;
+  }
 }
