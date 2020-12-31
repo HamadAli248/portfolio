@@ -1,12 +1,12 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import Weather from "../../../images/challengesLogo/Weather.png";
-import Calculator from "../../../images/challengesLogo/Calculator.png";
 import Booking from "../../../images/challengesLogo/booking.jpeg";
 import Tetris from "../../../images/challengesLogo/Tetris.png";
-import Calculators from "../../../images/challengesLogo/Calculator.png";
+import Calculator from "../../../images/challengesLogo/Calculator.png";
 import Dice from "../../../images/challengesLogo/Dice.jpg";
-import styles from "./Common.module.css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/swiper.scss";
 
 export const Projects = () => (
   <div>
@@ -20,43 +20,64 @@ export const Projects = () => (
     >
       Projects
     </h1>
-    <div className={styles.projectGrid}>
-      <ProjectCard
-        img={Dice}
-        cardText="First ever project built in Vanilla javascript, building a one and two player dice game."
-        gitHubButtonText="https://github.com/HamadAli248/dicegame"
-        liveButtonText="https://hamadali248.github.io/dicegame/"
-        liveButtonDisplay="Live Demo"
-      />
-      <ProjectCard
-        img={Calculators}
-        cardText="Calculator"
-        gitHubButtonText="https://github.com/HamadAli248/calculator"
-        liveButtonText="https://hamadali248.github.io/calculator/"
-        liveButtonDisplay="Live Demo"
-      />
-      <ProjectCard
-        img={Tetris}
-        cardText="Tetris Game"
-        githubButtonText="https://github.com/HamadAli248/Tetris-Game"
-        liveButtonText="https://hamadali248.github.io/Tetris-Game/"
-        liveButtonDisplay="Live Demo"
-      />
-      <ProjectCard
-        img={Booking}
-        cardText="Group project of building Room Booking System application with Spring Boot and PostgreSQL database"
-        gitHubButtonText="https://github.com/HamadAli248/RoomBookingSystem"
-      />
-      <ProjectCard
-        img={Calculator}
-        cardText="Mortgage Calculator calculating Monthly installments"
-        gitHubButtonText="https://github.com/HamadAli248/MortgageCalculator-in-java"
-      />
-      <ProjectCard
-        img={Weather}
-        cardText="Weather App"
-        gitHubButtonText="https://github.com/HamadAli248/Weather-App"
-      />
-    </div>
+    <Swiper
+      spaceBetween={50}
+      slidesPerView={1}
+      onSlideChange={() => console.log("slide change")}
+      onSwiper={(swiper) => console.log(swiper)}
+    >
+      <SwiperSlide>
+        <ProjectCard
+          img={Dice}
+          cardTitle="Dice Game"
+          cardText="First ever project built in Vanilla javascript, building a one and two player dice game."
+          gitHubButtonText="https://github.com/HamadAli248/dicegame"
+          liveButtonText="https://hamadali248.github.io/dicegame/"
+          liveButtonDisplay="Live Demo"
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <ProjectCard
+          img={Calculator}
+          cardTitle="Calculator"
+          cardText="Building a Calculator using react and hosting it using GitHub pages."
+          gitHubButtonText="https://github.com/HamadAli248/calculator"
+          liveButtonText="https://hamadali248.github.io/calculator/"
+          liveButtonDisplay="Live Demo"
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <ProjectCard
+          img={Tetris}
+          cardTitle="Tetris Game"
+          cardText="This project is a Tetris game using a tutorial to learn react. Only available on desktop"
+          githubButtonText="https://github.com/HamadAli248/Tetris-Game"
+          liveButtonText="https://hamadali248.github.io/Tetris-Game/"
+          liveButtonDisplay="Live Demo"
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <ProjectCard
+          img={Booking}
+          cardTitle="Room Booking System"
+          cardText="Group project of building Room Booking System application with Spring Boot and PostgreSQL database"
+          gitHubButtonText="https://github.com/HamadAli248/RoomBookingSystem"
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <ProjectCard
+          img={Weather}
+          cardTitle="Weather App"
+          cardText="Building a weather app using open weather map API"
+          gitHubButtonText="https://github.com/HamadAli248/Weather-App"
+        />
+      </SwiperSlide>
+      <SwiperSlide>
+        <ProjectCard
+          cardText="View more projects"
+          gitHubButtonText="https://github.com/HamadAli248/Weather-App"
+        />
+      </SwiperSlide>
+    </Swiper>
   </div>
 );
