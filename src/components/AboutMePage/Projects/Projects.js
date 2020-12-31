@@ -7,7 +7,13 @@ import Calculator from "../../../images/challengesLogo/Calculator.png";
 import Dice from "../../../images/challengesLogo/Dice.jpg";
 import More from "../../../images/challengesLogo/more.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/components/navigation/navigation.scss";
+import "swiper/components/pagination/pagination.scss";
+import "swiper/components/scrollbar/scrollbar.scss";
+import SwiperCore, { Navigation } from "swiper";
 import "swiper/swiper.scss";
+
+SwiperCore.use([Navigation]);
 
 export const Projects = () => (
   <div>
@@ -24,6 +30,7 @@ export const Projects = () => (
     <Swiper
       spaceBetween={50}
       slidesPerView={1}
+      navigation
       onSlideChange={() => console.log("slide change")}
       onSwiper={(swiper) => console.log(swiper)}
     >
