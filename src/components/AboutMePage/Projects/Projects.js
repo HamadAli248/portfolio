@@ -1,10 +1,11 @@
 import React from "react";
-import ProjectCard from "./ProjectCard";
+import { ProjectCard, NoDemoProjectCard } from "./ProjectCard";
 import Weather from "../../../images/challengesLogo/Weather.png";
 import Booking from "../../../images/challengesLogo/booking.jpeg";
 import Tetris from "../../../images/challengesLogo/Tetris.png";
 import Calculator from "../../../images/challengesLogo/Calculator.png";
 import Dice from "../../../images/challengesLogo/Dice.jpg";
+import More from "../../../images/challengesLogo/more.jpg";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.scss";
 
@@ -57,7 +58,7 @@ export const Projects = () => (
         />
       </SwiperSlide>
       <SwiperSlide>
-        <ProjectCard
+        <NoDemoProjectCard
           img={Booking}
           cardTitle="Room Booking System"
           cardText="Group project of building Room Booking System application with Spring Boot and PostgreSQL database"
@@ -65,7 +66,7 @@ export const Projects = () => (
         />
       </SwiperSlide>
       <SwiperSlide>
-        <ProjectCard
+        <NoDemoProjectCard
           img={Weather}
           cardTitle="Weather App"
           cardText="Building a weather app using open weather map API"
@@ -73,9 +74,10 @@ export const Projects = () => (
         />
       </SwiperSlide>
       <SwiperSlide>
-        <ProjectCard
+        <NoDemoProjectCard
+          img={More}
           cardText="View more projects"
-          gitHubButtonText="https://github.com/HamadAli248/Weather-App"
+          gitHubButtonText="https://github.com/HamadAli248/"
         />
       </SwiperSlide>
     </Swiper>
