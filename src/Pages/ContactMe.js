@@ -1,11 +1,13 @@
 import React, { Component } from "react";
-import ContactMePage from "../components/ContactMePage/ContactMe";
+import ContactMeForm from "../components/ContactMePage/ContactForm/ContactMeForm";
+import SocialLinks from "../components/ContactMePage/Socials/SocialLinks";
 
 class ContactMe extends Component {
   render() {
     return (
       <div>
-        <ContactMePage />
+        <ContactMeForm />
+        <SocialLinks />
       </div>
     );
   }
