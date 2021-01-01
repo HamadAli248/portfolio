@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import emailjs from "emailjs-com";
-import TextField from "@material-ui/core/TextField";
-import Button from "@material-ui/core/Button";
+// import TextField from "@material-ui/core/TextField";
+// import Button from "@material-ui/core/Button";
 import styles from "./ContactMeForm.module.css";
 
 class ContactMeForm extends Component {
@@ -26,22 +26,36 @@ class ContactMeForm extends Component {
 
   render() {
     return (
-      <div className={styles.formDiv}>
-        <h1>Contact me</h1>
-        <p>Have A question or want to work together?</p>
+      <div className={styles.contactForm}>
         <form
           className={styles.form}
           noValidate
           autoComplete="off"
           onSubmit={this.sendEmail}
         >
-          <TextField
+          <div className={styles.inputBox}>
+            <input label="Name" type="text" name="user_name" />
+            <span>Full Name</span>
+          </div>
+          <div className={styles.inputBox}>
+            <input type="email" name="user_email" label="Email" />
+            <span>Email</span>
+          </div>
+          <div className={styles.inputBox}>
+            <textarea label="Name" type="text" name="user_name"></textarea>
+            <span>Type your message ....</span>
+          </div>
+          <div className={styles.inputBox}>
+            <input type="submit" value="Send" />
+          </div>
+          {/* <TextField
             style={{ margin: "10px", width: "100%" }}
             id="outlined-basic"
             label="Name"
             type="text"
             name="user_name"
             variant="outlined"
+            required="required"
           />
           <TextField
             style={{ margin: "10px", width: "100%" }}
@@ -63,8 +77,8 @@ class ContactMeForm extends Component {
           <Button
             style={{
               margin: "0 auto",
-              width: "4%",
-              height: "2%",
+              width: "10%",
+              height: "6%",
             }}
             color="none"
             variant="contained"
@@ -73,7 +87,7 @@ class ContactMeForm extends Component {
             fullWidth
           >
             submit
-          </Button>
+          </Button> */}
         </form>
       </div>
     );
