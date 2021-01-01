@@ -7,7 +7,7 @@ class ContactMe extends Component {
   render() {
     return (
       <section className={styles.contact}>
-        <div className={styles.content}>
+        <div className={styles.myContent}>
           <h2>Contact me</h2>
           <p>Have A question or want to work together?</p>
         </div>
