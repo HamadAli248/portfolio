@@ -20,7 +20,9 @@ class SocialLinks extends Component {
             </a>
           </div>
           <div className={styles.text}>
-            <h3>hamad_4li</h3>
+            <a href="https://www.instagram.com/hamad_4li/">
+              <h3>hamad_4li</h3>
+            </a>
           </div>
         </div>
         <div className={styles.box}>
@@ -30,7 +32,9 @@ class SocialLinks extends Component {
             </a>
           </div>
           <div className={styles.text}>
-            <h3>Hamad Ali</h3>
+            <a href="https://www.linkedin.com/in/hamad-ali-5069b518a/">
+              <h3>Hamad Ali</h3>
+            </a>
           </div>
         </div>
         <div className={styles.box}>
@@ -40,7 +44,9 @@ class SocialLinks extends Component {
             </a>
           </div>
           <div className={styles.text}>
-            <h3>HamadAli248</h3>
+            <a href="https://github.com/HamadAli248">
+              <h3>HamadAli248</h3>
+            </a>
           </div>
         </div>
       </div>
