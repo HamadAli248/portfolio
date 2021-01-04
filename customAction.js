@@ -4,12 +4,8 @@
  * but remove just `some-outdated-file.txt`
  */
 var ghPages = require("gh-pages");
-ghPages.publish(
-  "src",
-  {
-    async beforeAdd(git) {
-      return git.add("./CNAME");
-    },
+ghPages.publish("src", {
+  async beforeAdd(git) {
+    return git.add("./CNAME");
   },
-  callback
-);
+});
