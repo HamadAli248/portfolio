@@ -3,10 +3,10 @@
  * Assuming we want to keep everything on the gh-pages branch
  * but remove just `some-outdated-file.txt`
  */
-ghpages.publish(
-  "dist",
+var ghPages = require("gh-pages");
+ghPages.publish(
+  "src",
   {
-    add: true,
     async beforeAdd(git) {
       return git.add("./CNAME");
     },
