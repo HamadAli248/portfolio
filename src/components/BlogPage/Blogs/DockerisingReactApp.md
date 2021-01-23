@@ -2,7 +2,7 @@
 
 ###
 
-# Dockerizing A React Application
+## Dockerizing A React Application
 
 #### January 23, 2021 by [Hamad Ali](https://github.com/HamadAli248)
 
