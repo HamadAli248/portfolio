@@ -26,6 +26,8 @@ In the project root create the files with the exact naming convention
 
 ### Docker File
 
+Add the following code to your docker file:
+
 #### Building your image
 
 Pull the base image:
