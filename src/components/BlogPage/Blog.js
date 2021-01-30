@@ -28,7 +28,7 @@ class Blog extends Component {
         <CssBaseline />
         <Container maxWidth="lg">
           <div className="markdown-body">
-            <ReactMarkdown source={post} />
+            <ReactMarkdown source={post} escapeHtml={false} />
           </div>
         </Container>
       </React.Fragment>

@@ -53,31 +53,21 @@ export default function ButtonAppBar() {
               open={Boolean(anchorEl)}
               onClose={handleClose}
             >
-              <MenuItem onClick={handleClose}>
-                <Link className={styles.menuLinks} to="/home">
-                  Home
-                </Link>
-              </MenuItem>
-              <MenuItem onClick={handleClose}>
-                <Link className={styles.menuLinks} to="/aboutme">
-                  About Me
-                </Link>
-              </MenuItem>
-              <MenuItem onClick={handleClose}>
-                <Link className={styles.menuLinks} to="/blogs">
-                  Blogs
-                </Link>
-              </MenuItem>
-              <MenuItem onClick={handleClose}>
-                <Link className={styles.menuLinks} to={CV} target="_blank">
-                  Resume
-                </Link>
-              </MenuItem>
-              <MenuItem onClick={handleClose}>
-                <Link className={styles.menuLinks} to="/contactme">
-                  Contact Me
-                </Link>
-              </MenuItem>
+              <Link className={styles.menuLinks} to="/home">
+                <MenuItem onClick={handleClose}>Home</MenuItem>
+              </Link>
+              <Link className={styles.menuLinks} to="/aboutme">
+                <MenuItem onClick={handleClose}>About Me</MenuItem>
+              </Link>
+              <Link className={styles.menuLinks} to="/blogs">
+                <MenuItem onClick={handleClose}>Blogs</MenuItem>
+              </Link>
+              <Link className={styles.menuLinks} to={CV} target="_blank">
+                <MenuItem onClick={handleClose}>Resume</MenuItem>
+              </Link>
+              <Link className={styles.menuLinks} to="/contactme">
+                <MenuItem onClick={handleClose}>Contact Me</MenuItem>
+              </Link>
             </Menu>
           </IconButton>
           <Typography variant="h6" className={classes.title}>
