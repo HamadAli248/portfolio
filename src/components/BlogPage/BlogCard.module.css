@@ -1,0 +1,44 @@
+.blogCard {
+  margin: 0 auto;
+  max-width: 80%;
+  margin-top: 20px;
+  text-align: center;
+  font-family: "lato", sans-serif;
+}
+.imageDiv {
+  max-width: 100%;
+  max-height: 520px;
+}
+.title {
+  color: black;
+  font-family: "lato", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+.cardText {
+  font-size: 15px;
+  margin-top: 0;
+}
+.link {
+  text-decoration: none;
+}
+button {
+  font-size: 20px;
+  margin-bottom: 10px;
+  background: none;
+  border: 2px solid black;
+  color: black;
+  padding: 10px;
+  cursor: pointer;
+  position: relative;
+  border-radius: 10px;
+  font-weight: bold;
+}
+@media (min-width: 768px) {
+  .title {
+    font-size: 48px;
+  }
+  .cardText {
+    font-size: 30px;
+  }
+}

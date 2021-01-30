@@ -9,7 +9,7 @@ class ContactMe extends Component {
       <section className={styles.contact}>
         <div className={styles.myContent}>
           <h2>Contact me</h2>
-          <p>Have A question or want to work together?</p>
+          <p>Have a question or want to work together?</p>
         </div>
         <div className={styles.container}>
           <div className={styles.contactInfo}>

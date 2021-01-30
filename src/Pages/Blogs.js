@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import Blog from "../components/BlogPage/Blog";
+import BlogsHomePage from "../components/BlogPage/BlogsHomePage";
 
 class Blogs extends Component {
   render() {
     return (
       <div>
-        <Blog />
+        <BlogsHomePage />
       </div>
     );
   }
