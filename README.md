@@ -26,5 +26,5 @@ Once merged to master it will trigger github actions to deploy but for manual de
 
 ### `npm run deploy`
 
-Start the publishing process. When completed check the [website](https://hamadali248.github.io/portfolio/) 
+Start the publishing process. When completed check the [website](https://www.hamadali.co.uk/) 
 
