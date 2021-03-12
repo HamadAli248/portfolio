@@ -1,4 +1,4 @@
-# Hamad Ali Website Portfolio
+# Hamad Ali Website
 
 This project is an online Portfolio.
 
