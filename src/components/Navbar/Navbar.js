@@ -9,7 +9,6 @@ import MenuIcon from "@material-ui/icons/Menu";
 import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
 import { Link } from "react-router-dom";
-import CV from "../../Pages/HamadAliCV.pdf";
 import styles from "./Navbar.module.css";
 
 const useStyles = makeStyles((theme) => ({
@@ -62,9 +61,6 @@ export default function ButtonAppBar() {
               <Link className={styles.menuLinks} to="/blogs">
                 <MenuItem onClick={handleClose}>Blogs</MenuItem>
               </Link>
-              <Link className={styles.menuLinks} to={CV} target="_blank">
-                <MenuItem onClick={handleClose}>Resume</MenuItem>
-              </Link>
               <Link className={styles.menuLinks} to="/contactme">
                 <MenuItem onClick={handleClose}>Contact Me</MenuItem>
               </Link>
@@ -92,11 +88,6 @@ export default function ButtonAppBar() {
             <Button color="inherit">
               <Link className={styles.navlinks} to="/blogs">
                 Blogs
-              </Link>
-            </Button>
-            <Button color="inherit">
-              <Link className={styles.navlinks} to={CV} target="_blank">
-                Resume
               </Link>
             </Button>
             <Button color="inherit">
