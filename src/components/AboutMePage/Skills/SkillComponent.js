@@ -25,16 +25,17 @@ class SkillComponent extends Component {
             Skills
           </h2>
           <div>
-            <Skills skill="JAVA" progress={30} />
+            <Skills skill="HTML" progress={99} />
+            <Skills skill="CSS" progress={99} />
+            <Skills skill="JavaScript" progress={99} />
+            <Skills skill="TypeScript" progress={99} />
+            <Skills skill="React" progress={99} />
+            <Skills skill="Gatsby" progress={70} />
+            <Skills skill="Kotlin" progress={40} />
             <Skills skill="Spring Boot" progress={30} />
-            <Skills skill="TDD" progress={20} />
-            <Skills skill="JavaScript" progress={55} />
-            <Skills skill="React" progress={45} />
-            <Skills skill="AWS" progress={10} />
-            <Skills skill="PostgreSQL" progress={20} />
-            <Skills skill="NodeJS" progress={15} />
-            <Skills skill="HTML" progress={80} />
-            <Skills skill="CSS" progress={80} />
+            <Skills skill="AWS" progress={20} />
+            <Skills skill="PostgreSQL" progress={40} />
+            <Skills skill="Terraform" progress={30} />
           </div>
         </div>
         <div className={styles.item} id={styles.experienceDiv}>
@@ -72,11 +73,11 @@ class SkillComponent extends Component {
                 iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
                 icon={<WorkIcon />}
               >
-                <h3 className="vertical-timeline-element-title">DMW Group</h3>
+                <h3 className="vertical-timeline-element-title">Credera</h3>
                 <h4 className="vertical-timeline-element-subtitle">
                   Manchester, UK
                 </h4>
-                <p>Apprentice Software Engineer</p>
+                <p>Software Engineer</p>
               </VerticalTimelineElement>
             </VerticalTimeline>
           </div>

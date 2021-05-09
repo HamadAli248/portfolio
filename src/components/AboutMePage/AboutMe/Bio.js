@@ -21,10 +21,7 @@ class Bio extends Component {
         </div>
         <div className={styles.item} id={styles.bio}>
           <p>
-            Currently I am on a 15 months Apprenticeship at{" "}
-            <a href="https://www.dmwgroup.com/">DMW Group a Credera Company</a>
-            <br />
-            I have a huge passion for Frontend development.
+            Software Engineer at <a href="https://www.credera.com/">Credera</a>
             <br />
             <Link to="/contactme">Lets Build something</Link>
           </p>
