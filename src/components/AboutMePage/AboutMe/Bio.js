@@ -21,7 +21,7 @@ class Bio extends Component {
         </div>
         <div className={styles.item} id={styles.bio}>
           <p>
-            Software Engineer at <a href="https://www.credera.com/">Credera</a>
+            Junior Software Engineer
             <br />
             <Link to="/contactme">Lets Build something</Link>
           </p>

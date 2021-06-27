@@ -73,7 +73,6 @@ class SkillComponent extends Component {
                 iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
                 icon={<WorkIcon />}
               >
-                <h3 className="vertical-timeline-element-title">Credera</h3>
                 <h4 className="vertical-timeline-element-subtitle">
                   Manchester, UK
                 </h4>
